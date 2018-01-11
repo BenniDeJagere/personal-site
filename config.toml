@@ -1,3 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "https://chipsncookies.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Chips & Cookies"
+theme = "hugo-goa"
+googleAnalytics = "UA-51718684-1"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableGitInfo = true
+author = "Sam Debruyn"
+
+[permalinks]
+    post = "/:year/:title/"
+    addendum = "/addendum/:year/:title/"
