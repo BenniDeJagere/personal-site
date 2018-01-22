@@ -4,9 +4,9 @@ title = "Wercker step to validate Hugo themes"
 tags = ["CI", "Hugo", "Wercker"]
 +++
 
-So last week, I created [a material design theme]({{< relref "post/material-lite-theme-for-hugo.md" >}}) for [Hugo](http://gohugo.io), a static site generator which I'm [quite fond of](/tags/hugo/).
+So last week, I created [a material design theme]({{< relref "blog/material-lite-theme-for-hugo.md" >}}) for [Hugo](http://gohugo.io), a static site generator which I'm [quite fond of](/tags/hugo/).
 
-As I [discovered Wercker]({{< relref "post/continuous-integration-with-hugo-and-wercker.md" >}}), an awesome CI tool, I went looking for a way to automatically validate themes.
+As I [discovered Wercker]({{< relref "blog/continuous-integration-with-hugo-and-wercker.md" >}}), an awesome CI tool, I went looking for a way to automatically validate themes.
 
 There wasn't any, so I simply wrote a build step for [Wercker](http://wercker.com). The build step validates a Hugo theme using [an example site](https://github.com/spf13/HugoBasicExample). It also checks if you included some files required for a future Hugo themes site. 
 

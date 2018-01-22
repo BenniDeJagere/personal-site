@@ -4,7 +4,7 @@ title = "Material-lite theme for Hugo"
 tags = ["Google", "Hugo"]
 +++
 
-Last week, [I wrote a post]({{< relref "post/an-introduction-to-hugo-a-static-site-generator.md" >}}) about how awesome [Hugo](http://gohugo.io) is and why I switched from Jekyll to Hugo.
+Last week, [I wrote a post]({{< relref "blog/an-introduction-to-hugo-a-static-site-generator.md" >}}) about how awesome [Hugo](http://gohugo.io) is and why I switched from Jekyll to Hugo.
 
 Then, a few days later, Google released an awesome template called [Material Design Lite](http://getmdl.io). It's basically Google's famous [Material Design](https://www.google.com/design/spec/material-design/introduction.html) in HTML, CSS and JavaScript instead of in [Polymer](https://www.polymer-project.org).
 

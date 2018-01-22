@@ -6,7 +6,7 @@ tags = ["WordPress", "security"]
 
 ## Introduction
 
-This is the second part of a guide about [recovering a hacked WordPress]({{< relref "post/recovering-a-hacked-wordpress-and-hardening-your-security.md" >}}) and hardening your WordPress security.
+This is the second part of a guide about [recovering a hacked WordPress]({{< relref "blog/recovering-a-hacked-wordpress-and-hardening-your-security.md" >}}) and hardening your WordPress security.
 
 In the previous part, I showed you how to get back up and running after your website has been hacked. In this part I'll demonstrate how you can avoid being hacked by making your WordPress more secure. I always try to be exhaustive, but if you have any suggestions, corrections or feel like anything is missing, I would like you to [let me know](mailto:s@muel.be?subject=Suggestions%20for%20the%20post%20about%20securing%20Wordpress).
 

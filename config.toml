@@ -9,7 +9,7 @@ enableGitInfo = true
 author = "Sam Debruyn"
 
 [permalinks]
-    post = "/:year/:title/"
+    blog = "/:year/:title/"
     addendum = "/addendum/:year/:title/"
 
 [params]
@@ -26,4 +26,4 @@ author = "Sam Debruyn"
 [[menu.main]]
     name = "blog"
     weight = 200
-    url = "/post/"
+    url = "/blog/"

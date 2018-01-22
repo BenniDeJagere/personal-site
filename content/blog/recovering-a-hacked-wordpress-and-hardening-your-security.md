@@ -7,13 +7,13 @@ tags = ["WordPress", "security"]
 
 ## Introduction
 
-A few weeks ago, I had to [repair a hacked WordPress]({{< relref "post/about-that-time-I-dealt-with-a-bunch-of-hackers-on-wordpress.md" >}}) installation.
+A few weeks ago, I had to [repair a hacked WordPress]({{< relref "blog/about-that-time-I-dealt-with-a-bunch-of-hackers-on-wordpress.md" >}}) installation.
 
 A lot of the information I needed to successfully clean the WordPress completely of infected files was not centralized in a single guide. So I decided to write one and you are now reading it.
 
 So, your website is hacked, what now? Let's go through the process of making sure that every infection is removed and it never happens again.
 
-In this first part you'll recover from a hack. In a second part you'll learn how to harden the security. I'll publish [the second part]({{< relref "post/hardening-your-wordpress-security.md" >}}) a few weeks after the first part.
+In this first part you'll recover from a hack. In a second part you'll learn how to harden the security. I'll publish [the second part]({{< relref "blog/hardening-your-wordpress-security.md" >}}) a few weeks after the first part.
 
 This post is meant to be exhaustive and clear. If you have any suggestions or feel like something is missing or unclear, [*please* let me know](mailto:s@muel.be?subject=Suggestions%20for%20the%20post%20about%20recovering%20a%20Wordpress%20hack).
 
@@ -130,7 +130,7 @@ Your WordPress should now be clean of infections and you can start restoring you
 
 ## Harden your WordPress Security
 
-A few weeks after this post, I'll publish [a follow-up guide]({{< relref "post/hardening-your-wordpress-security.md" >}}) on improving the security on your WordPress website.
+A few weeks after this post, I'll publish [a follow-up guide]({{< relref "blog/hardening-your-wordpress-security.md" >}}) on improving the security on your WordPress website.
 
 ## Sources
 

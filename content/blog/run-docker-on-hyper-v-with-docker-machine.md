@@ -18,7 +18,7 @@ So how do you install Docker Machine on Windows with Hyper-V? Here we go.
 
 ## Setting up Hyper-V and network connections
 
-Make sure the Hyper-V role is installed on your computer and the *Hyper-V Manager* works fine. [I still had to fix a small issue on Windows 10]({{< relref "post/fix-hyper-v-errors-on-windows-10.md" >}}).
+Make sure the Hyper-V role is installed on your computer and the *Hyper-V Manager* works fine. [I still had to fix a small issue on Windows 10]({{< relref "blog/fix-hyper-v-errors-on-windows-10.md" >}}).
 
 Next, create a *Virtual Network Switch*. Pick *internal* as type.
 
