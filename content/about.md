@@ -1,27 +1,23 @@
 +++
-title = "About me"
-description = "Who is Samuel Debruyn?"
+title = "About Sam"
+description = "Who is Sam Debruyn?"
 +++
 
-## Who is Samuel Debruyn?
-
-Hi there, you can call me Sam. I'm a 1m96 tall guy from Belgium and that will probably be the answer to the question that pops up in your head when you see me.
-
-## What do I do?
-
-I am a Xamarin developer at [3factr](http://3factr.be/). At the moment I am working on four of the top ten most downloaded news apps in Belgium.
+Sam Debruyn is a mobile app developer and technical lead at [3factr](http://3factr.be/). He has worked on tens of mobile apps of which some belong to the most downloaded apps in the Belgian app stores.
 
 ## Xamarin?
 
-Xamarin enables you to develop Android and iOS apps in C#, the most beautiful programming language mankind has ever seen. I have been a certified Xamarin mobile developer since July 2016. 
+Xamarin enables you to develop Android and iOS apps in C#, the most beautiful programming language mankind has ever seen. Sam has been a certified Xamarin mobile developer since July 2016 and is very active in the Belgian Xamarin developer community.
 
-## How can you contact me?
+## Other interests and skills
 
-You should send me an email at [s@muel.be](mailto:s@muel.be) or a tweet at [@SamuelDebruyn](https://twitter.com/SamuelDebruyn).
+* Continuous integration and deployment
+* Agile development
+* (ASP).NET Core and scalable cloud backends
 
-## What do I do for fun?
+## Contact details
 
-I once was a guitarist in a local indie rock band, but nowadays I just like to go to concerts, travel and meet up with friends.
+Please send an email to [s@muel.be](mailto:s@muel.be) or a tweet to [@SamuelDebruyn](https://twitter.com/SamuelDebruyn).
 
 ---
 
