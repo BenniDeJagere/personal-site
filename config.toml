@@ -7,6 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableGitInfo = true
 author = "Sam Debruyn"
+enableRobotsTXT = true
 
 [permalinks]
     blog = "/:year/:title/"
@@ -18,6 +19,21 @@ author = "Sam Debruyn"
     description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://www.3factr.be\" target=\"_blank\">3factr</a>"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
+
+[params.meta]
+    description = "Chips & Cookies by Sam Debruyn"
+    keywords = "xamarin,developer,portfolio,blog,mobile,apps,app"
+
+[params.extra]
+    hightlightjs = true
+    copyright = "&copy; Sam Debruyn 2013-2018. All rights reserved."
+    poweredby = false
+
+[params.social]
+    github = "SamuelDebruyn"
+    twitter = "SamuelDebruyn"
+    stackoverflow = "1592358"
+    email = "s@muel.be"
 
 [[menu.main]]
     name = "about"
