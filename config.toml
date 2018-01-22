@@ -11,3 +11,19 @@ author = "Sam Debruyn"
 [permalinks]
     post = "/:year/:title/"
     addendum = "/addendum/:year/:title/"
+
+[params]
+    author = "Chips & Cookies"
+    intro = "all the platforms, all the apps"
+    description = "Sam Debruyn is a Xamarin mobile app developer & technical lead at <a href=\"http://www.3factr.be\" target=\"_blank\">3factr</a>"
+    authorimage = "avatar_crop.jpg"
+    dateformat = "Jan 2, 2006"
+
+[[menu.main]]
+    name = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "blog"
+    weight = 200
+    url = "/blog/"
