@@ -1,4 +1,4 @@
-baseURL = "https://chipsncookies.com/"
+baseURL = "https://www.chipsncookies.com/"
 languageCode = "en-us"
 title = "Chips & Cookies"
 theme = "hugo-goa"
