@@ -16,7 +16,7 @@ enableRobotsTXT = true
 [params]
     author = "Chips & Cookies"
     intro = "all the platforms, all the apps"
-    description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://www.3factr.be\" target=\"_blank\">3factr</a>"
+    description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://www.3factr.be\" target=\"_blank\">3factr</a><br/><br/><a href=\"https://university.xamarin.com/certification?q=samuel.debruyn@3factr.be#verify\" target=\"_blank\"><img class=\"xcert\" src=\"img/xamcert.png\" /></a>"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
