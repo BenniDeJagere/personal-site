@@ -1,7 +1,23 @@
 +++
 date = "2018-04-06T20:51:48+00:00"
 draft = true
-title = "One-size fits all mobile app frameworks?"
+title = "One-size-fits-all mobile app frameworks? Thoughts on Flutter and where we are in mobile app dev"
 
 +++
+The time has come to write my thoughts down on the landscape of (cross-platform) app development frameworks in 2018.
 
+Let's give you some context. I've done some native Android development (Java), moved on to Windows 8.1 & UWP app development (C#/XAML) and then shifted my focus to Xamarin. That was 3 years ago. I've been a full-time Xamarin (C#) developer for about 2 years now and recently I've been playing with VueJS and Flutter (Dart). Over the past few years I've worked on numerous of mobile and desktop apps and because of its bad performance I haven't cared enough about Ionic and Cordova to take the time to get my hands dirty with it. That changed a few weeks ago when a coworker [showed](https://twitter.com/stackedbe/status/976397314934919168) me [what the web can do today](https://whatwebcando.today/ "what the web can today").
+
+**_It's only April and 2018 has already brought us a few milestones in (cross-platform) mobile app development._**
+
+Without any doubt, [Apple adding support](https://medium.com/awebdeveloper/progressive-web-apps-pwas-are-coming-to-a-safari-near-you-216812aba5a) to Safari for Progressive Web Apps (PWAs) in iOS 11.3 is the biggest one yet. If you haven't looked at [some amazing PWA examples](https://pwa.rocks/) like the [Pokédex](https://www.pokedex.org/), you're seriously missing out. These samples demonstrate how far JavaScript frameworks like [VueJS](https://vuejs.org/) have come and often the difference between true native app performance and PWAs is close to negligible. The features aren't there yet, but it looks like it's just a matter of time. If you combine the power of a PWA with a mobile framework like [Ionic](https://ionicframework.com/), you can even bridge the gap with the older phones.
+
+Another Next Big Thing (TM) seems to be [WebAssembly](http://webassembly.org/). This brings true native performance to the web and combined with PWAs this becomes a great candidate to build web and mobile apps. Microsoft recently announced [Blazor](https://github.com/aspnet/Blazor) and together with ASP.NET Core you can do full-stack .NET development with modern, cross-platform and incredibly fast tools.
+
+Then there's [Flutter](http://flutter.io). Google's new cross-platform mobile app development framework is built with [Dart](https://www.dartlang.org/) which has already showed its benefits as a programming language for the web. Like [Xamarin](https://www.xamarin.com/), Flutter compiles to truly native code.
+
+The big difference is that while Xamarin still uses the native frameworks (Android views, Apple's UIKit), Flutter renders everything with [Skia](https://skia.org/). E.g. native Android developers use a `ListView` to show a list of items and a `TextView` to display text. Native iOS developers respectively use a `UITableView` and a `UILabel`. Xamarin offers you access to the exact same components, but in C#. Flutter doesn't use any of the native building blocks. Instead, Google has built components that mimic the native ones and graphically render to the same user interface. This is an important difference because they can build the exact same UI for both Android and iOS, pixel by pixel. Flutter comes with a lot of material like designed components and some typical iOS components which they call Cupertino. They all work 100% on both Android and iOS.
+
+Last but not least, the existing frameworks are becoming even bigger. There are cross-platform mobile app development frameworks available in both [Swift](http://www.scade.io/) and [Kotlin](https://blog.kotlin-academy.com/multiplatform-native-development-in-kotlin-now-with-ios-a8546f436eec) and Xamarin has grown a lot too. Xamarin aficionado Frank Krueger announced Xamarin.Forms for the web with [Ooui](https://github.com/praeclarum/Ooui) and it didn't take him long to even add WebAssembly support with [Ooui.Wasm](https://github.com/praeclarum/Ooui/wiki/Xamarin.Forms-with-Web-Assembly).
+
+If there's one thing to take away from this rather superficial blog post, it's that the past few months have already showed us that (mobile) app development isn't going to be the same in 2019. App developers will have to get their hands dirty with new technologies, programming languages and frameworks to stay relevant. While most app development environments are getting cross-platform traction, they all have (dis)advantages and the right choice for a project has never been so difficult.
