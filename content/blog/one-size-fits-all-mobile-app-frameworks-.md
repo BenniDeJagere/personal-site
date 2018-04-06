@@ -1,6 +1,5 @@
 +++
 date = "2018-04-06T20:51:48+00:00"
-draft = true
 title = "One-size-fits-all mobile app frameworks? Thoughts on Flutter and where we are in mobile app dev"
 
 +++
