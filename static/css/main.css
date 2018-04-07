@@ -10,6 +10,9 @@
 {
     width: device-width;
 }
+a.list-entry-link {
+    color: #526d7a !important;
+}
 a,
 a:hover,
 a:visited,
