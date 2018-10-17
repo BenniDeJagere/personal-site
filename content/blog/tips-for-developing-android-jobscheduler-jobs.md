@@ -1,6 +1,5 @@
 +++
 date = "2018-10-17T08:01:27+01:00"
-draft = true
 title = "Tips for developing Android JobScheduler Jobs"
 
 +++
