@@ -19,5 +19,6 @@ fields:
   hidden: false
   default: true
 pages:
+- content/blog/tips-for-developing-android-jobscheduler-jobs.md
 - content/blog/moving-from-microsoft-work-to-personal-account.md
 - content/blog/one-size-fits-all-mobile-app-frameworks-.md
