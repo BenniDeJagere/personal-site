@@ -1,7 +1,7 @@
 +++
 date = "2018-10-17T08:01:27+01:00"
 title = "Tips for developing Android JobScheduler Jobs"
-
+tags = ["Xamarin", "Android"]
 +++
 If your app has to sync some data in the background, you'll definitely want to use the [Android JobScheduler API](https://developer.android.com/topic/performance/scheduling) to schedule a background job.
 
