@@ -1,7 +1,7 @@
 +++
 date = "2018-10-29T14:38:56+00:00"
 title = "Create App Previews with the iOS Simulator"
-
+tags = ["iOS", "Apple", "App Store"]
 +++
 I don't always have a ton of iOS devices lying around when I submit iOS apps to ~~iTunes~~ App Store Connect.
 
@@ -27,7 +27,7 @@ Use homebrew to install ffmpeg:
 
 Convert your video to the correct format using ffmpeg:
 
-    fmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -i recording.mov -vf scale=1080:1920 -map 0:0 -map 1:0 -shortest -strict experimental -r 30 -y apppreview.mp4
+    ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -i recording.mov -vf scale=1080:1920 -map 0:0 -map 1:0 -shortest -strict experimental -r 30 -y apppreview.mp4
 
 * `-f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100`: adds silent audio (stereo)
 * `-vf scale=1080:1920`: resizes video to 1080x1920
