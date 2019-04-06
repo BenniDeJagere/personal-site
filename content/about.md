@@ -3,7 +3,7 @@ title = "About Sam"
 description = "Who is Sam Debruyn?"
 +++
 
-Sam Debruyn is a mobile app developer and technical lead at [3factr](http://3factr.be/). He has worked on tens of mobile apps of which some belong to the most downloaded apps in the Belgian app stores.
+Sam Debruyn is a mobile app developer and technical lead at [3factr](https://3factr.be/). He has worked on tens of mobile apps of which some belong to the most downloaded apps in the Belgian app stores.
 
 ## Xamarin?
 
@@ -14,10 +14,6 @@ Xamarin enables you to develop Android and iOS apps in C#, the most beautiful pr
 * Continuous integration and deployment
 * Agile development
 * (ASP).NET Core and scalable cloud backends
-
-## Contact details
-
-Please send an email to [s@muel.be](mailto:s@muel.be) or a tweet to [@SamuelDebruyn](https://twitter.com/SamuelDebruyn).
 
 ---
 
