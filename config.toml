@@ -1,6 +1,6 @@
-baseURL = "https://www.chipsncookies.com/"
+baseURL = "https://debruyn.dev/"
 languageCode = "en-us"
-title = "Chips & Cookies"
+title = "Sam Debruyn"
 theme = "hugo-goa"
 googleAnalytics = "UA-51718684-1"
 pygmentsCodeFences = true
@@ -14,26 +14,25 @@ enableRobotsTXT = true
     addendum = "/addendum/:year/:title/"
 
 [params]
-    author = "Chips & Cookies"
+    author = "Sam Debruyn"
     intro = "all the platforms, all the apps"
-    description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://www.3factr.be\" target=\"_blank\">3factr</a><br/><br/><a href=\"https://university.xamarin.com/certification?q=samuel.debruyn@3factr.be#verify\" target=\"_blank\"><img class=\"xcert\" src=\"img/xamcert.png\" /></a>"
+    description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://3factr.be\" target=\"_blank\">3factr</a><br/><br/><a href=\"https://university.xamarin.com/certification?q=samuel.debruyn@3factr.be#verify\" target=\"_blank\"><img class=\"xcert\" src=\"img/xamcert.png\" /></a>"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
-    description = "Chips & Cookies by Sam Debruyn"
+    description = "Sam Debruyn"
     keywords = "xamarin,developer,portfolio,blog,mobile,apps,app"
 
 [params.extra]
     hightlightjs = true
-    copyright = "&copy; Sam Debruyn 2013-2018. All rights reserved."
+    copyright = "&copy; Sam Debruyn 2013-2019. All rights reserved."
     poweredby = false
 
 [params.social]
     github = "SamuelDebruyn"
     twitter = "S_Debruyn"
     stackoverflow = "1592358"
-    email = "s@muel.be"
 
 [[menu.main]]
     name = "about"
