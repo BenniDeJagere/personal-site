@@ -28,11 +28,13 @@ enableRobotsTXT = true
     hightlightjs = true
     copyright = "&copy; Sam Debruyn 2013-2019. All rights reserved."
     poweredby = false
+    socialmarkup = true
 
 [params.social]
     github = "SamuelDebruyn"
     twitter = "S_Debruyn"
     stackoverflow = "1592358"
+    linkedin = "samueldebruyn"
 
 [[menu.main]]
     name = "about"
