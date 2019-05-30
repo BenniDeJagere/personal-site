@@ -16,13 +16,13 @@ enableRobotsTXT = true
 [params]
     author = "Sam Debruyn"
     intro = "all the platforms, all the apps"
-    description = "Sam Debruyn is a <a href=\"http://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://3factr.be\" target=\"_blank\">3factr</a><br/><br/><a href=\"https://university.xamarin.com/certification?q=samuel.debruyn@3factr.be#verify\" target=\"_blank\"><img class=\"xcert\" src=\"img/xamcert.png\" /></a>"
+    description = "Sam Debruyn is a <a href=\"https://www.xamarin.com\" target=\"_blank\">Xamarin</a> mobile app developer & technical lead at <a href=\"http://3factr.be\" target=\"_blank\">3factr</a>.<br/>Sam develops cross-platform mobile apps using <a href=\"https://flutter.dev\" target=\"_blank\">Flutter</a> or <a href=\"https://www.xamarin.com\" target=\"_blank\">Xamarin</a>.<br/><br/><a href=\"https://university.xamarin.com/certification?q=samuel.debruyn@3factr.be#verify\" target=\"_blank\"><img class=\"xcert\" src=\"img/xamcert.png\" /></a>"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
     description = "Sam Debruyn"
-    keywords = "xamarin,developer,portfolio,blog,mobile,apps,app"
+    keywords = "xamarin,flutter,developer,portfolio,blog,mobile,apps,app,cross-platform"
 
 [params.extra]
     hightlightjs = true
