@@ -1,5 +1,1 @@
 # Redirect domain aliases to primary domain
-http://www.chipsncookies.com/* https://debruyn.dev/:splat 301!
-https://www.chipsncookies.com/* https://debruyn.dev/:splat 301!
-http://chipsncookies.com/* https://debruyn.dev/:splat 301!
-https://chipsncookies.com/* https://debruyn.dev/:splat 301!
