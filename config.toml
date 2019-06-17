@@ -4,10 +4,11 @@ title = "Sam Debruyn"
 theme = "hugo-goa"
 googleAnalytics = "UA-51718684-1"
 pygmentsCodeFences = true
-pygmentsUseClasses = true
+pygmentsUseClasses = false
 enableGitInfo = true
 author = "Sam Debruyn"
 enableRobotsTXT = true
+pygmentsStyle = "monokai"
 
 [permalinks]
     blog = "/:year/:title/"
@@ -25,7 +26,7 @@ enableRobotsTXT = true
     keywords = "xamarin,flutter,developer,portfolio,blog,mobile,apps,app,cross-platform"
 
 [params.extra]
-    hightlightjs = true
+    hightlightjs = false
     copyright = "&copy; Sam Debruyn 2013-2019. All rights reserved."
     poweredby = false
     socialmarkup = true
