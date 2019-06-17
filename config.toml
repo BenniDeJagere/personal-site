@@ -26,7 +26,6 @@ pygmentsStyle = "monokai"
     keywords = "xamarin,flutter,developer,portfolio,blog,mobile,apps,app,cross-platform"
 
 [params.extra]
-    hightlightjs = false
     copyright = "&copy; Sam Debruyn 2013-2019. All rights reserved."
     poweredby = false
     socialmarkup = true
