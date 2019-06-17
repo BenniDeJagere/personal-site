@@ -1,0 +1,13 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo -F -D -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo -F -D -b $DEPLOY_PRIME_URL"
