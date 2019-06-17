@@ -175,7 +175,7 @@ To generate ARB files, run the following command:
 ```sh
 mkdir l10n
 flutter pub pub run intl_translation:extract_to_arb --output-dir=l10n lib/localization.dart
-````
+```
 
 `lib/localization.dart` is the path where my localized strings live (the `AppLocalizations` class) and `l10n` is a folder where I want the ARB files to be generated. Make sure to create this folder using the `mkdir` commando first so that the folder exists. The command will fail otherwise.
 
