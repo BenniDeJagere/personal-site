@@ -138,7 +138,7 @@ class MyLocalizedApp extends StatelessWidget {
       ],
       supportedLocales: [Locale("en"), Locale("nl"), Locale("fr")],
       onGenerateTitle: (BuildContext context) =>
-          AppLocalizations.of(context).title,
+          AppLocalizations.of(context).appTitle,
       ...
     );
   }
