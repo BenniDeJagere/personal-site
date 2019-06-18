@@ -91,7 +91,7 @@ The `load` simply returns our `AppLocalizations` class as it will contain all th
 
 In the `isSupported` method you can define which locales your app should support (English, Dutch and French in this example).
 
-The `shouldReload` method always returns `false` in this case. It defines if all the app's widgets should be reloaded when the `load` method is completed.
+The `shouldReload` method always returns `false` in this case. It defines whether or not all the app's widgets should be reloaded when the `load` method is completed.
 
 Next, add the `LocalizationsDelegate` to the app class as arguments and define the locales that our app supports:
 
