@@ -6,6 +6,10 @@ draft: true
 
 Did you know [Flutter](https://flutter.dev/) has built-in support for l10n, also known as localization? I've been searching for an easy way to localize my app, but most of the blog posts I've found rephrased [the official documentation on internationalization](https://flutter.dev/docs/development/accessibility-and-localization/internationalization).
 
+![l10n](https://antistatique.net/sites/default/files/large-article/l10n-i18n.png)
+
+I live in Belgium where we have 3 official locales: Flemish (`nl_BE`), Belgian French (`fr_BE`) and German (`de_BE`). L10n is the process of supporting multiple locales. This mainly relates to translated resources and formatting differences. I18n (internationalization) means that you also support different countries and cultures (e.g. different timezones, understanding that seasons are not the same everywhere in the world, different symbols...). A great app in Belgium should be localized for at least Dutch and French.
+
 During my job as a Xamarin developer, I regularly use [Loco](https://localise.biz/), a software translation management platform. Turns out this also makes localizing Flutter apps a piece of cake.
 
 In this tutorial I'll walk you through setting up l10n for your app and configuring a system that both developers and translators can use to localize your app with ease.
@@ -162,7 +166,7 @@ This is also how you can retrieve a translated resource from within a widget:
 }
 ```
 
-## Generating ARB-files
+## Generating ARB files
 
 ARB stands for [Application Resource Bundle](https://github.com/google/app-resource-bundle) and is a file format made by Google that contains localized resources for software.
 
