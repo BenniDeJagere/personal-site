@@ -1,7 +1,7 @@
 ---
 title: "Easy localization in Flutter wih continuous integration"
-date: 2019-06-17T22:08:59+02:00
-draft: true
+date: 2019-06-18T22:08:59+02:00
+tags: ["Flutter", "l10n", "localization", "i18n", "translate", "mobile", "Android", "iOS"]
 ---
 
 Did you know [Flutter](https://flutter.dev/) has built-in support for l10n, also known as localization? I've been searching for an easy way to localize my app, but most of the blog posts I've found rephrased [the official documentation on internationalization](https://flutter.dev/docs/development/accessibility-and-localization/internationalization).
