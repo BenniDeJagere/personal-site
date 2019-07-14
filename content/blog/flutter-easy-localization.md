@@ -1,5 +1,5 @@
 ---
-title: "Easy localization in Flutter wih continuous integration"
+title: "Easy localization in Flutter with continuous integration"
 date: 2019-06-18T22:08:59+02:00
 tags: ["Flutter", "l10n", "localization", "i18n", "translate", "mobile", "Android", "iOS"]
 ---
