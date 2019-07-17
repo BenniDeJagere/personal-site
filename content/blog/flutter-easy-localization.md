@@ -46,7 +46,7 @@ Just like in the official documentation, we'll add a class that contains the log
 ```Dart
 class AppLocalizations {
   static Future<AppLocalizations> load(Locale locale) {
-    final String name = locale.countryCode.isEmpty ? locale.languageCode : locale.toString();
+    final String name = locale.countryCode == null || locale.countryCode.isEmpty ? locale.languageCode : locale.toString();
     final String localeName = Intl.canonicalizedLocale(name);
     return initializeMessages(localeName).then((_) {
       Intl.defaultLocale = localeName;
