@@ -23,11 +23,11 @@ There wasn't one for Telenet Yelo TV yet so I wrote one. This profile will conve
 
 I recently switched to Plex. A profile for Plex is available here:
 
-{{< gist SamuelDebruyn 5f6a7b3669706153f868 >}}
+{{< gist sdebruyn 5f6a7b3669706153f868 >}}
 
 ## The profile:
 
-{{< gist SamuelDebruyn 7944739 >}}
+{{< gist sdebruyn 7944739 >}}
 
 ## Installation
 

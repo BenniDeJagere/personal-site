@@ -17,9 +17,9 @@ Building this blog requires some more packages. Wercker doesn't automatically pu
 
 ### hugo-build
 
-The image is quite big. It needs Java for YUI compressor, Ruby for html-proofer and Node for html-minifier. Setting up the environment and storing the container each take about half a minute. If you have some suggestions on making the image smaller, please [submit an issue or a pull request](https://github.com/SamuelDebruyn/docker-hugo-build).
+The image is quite big. It needs Java for YUI compressor, Ruby for html-proofer and Node for html-minifier. Setting up the environment and storing the container each take about half a minute. If you have some suggestions on making the image smaller, please [submit an issue or a pull request](https://github.com/sdebruyn/docker-hugo-build).
 
-The latest list of included packages is available in the [README file](https://github.com/SamuelDebruyn/docker-hugo-build).
+The latest list of included packages is available in the [README file](https://github.com/sdebruyn/docker-hugo-build).
 
 The build often fails on a time-out while running `apt-get`. It's usually *fixed* by running another build.
 
@@ -29,4 +29,4 @@ html-proofer will often fail because it scans your website for dead links before
 
 ### Example *wercker.yml* using these images
 
-My blog uses these images to build and deploy automatically through Wercker. The source code is [publicly available](https://github.com/SamuelDebruyn/chipsncookies-site) on GitHub.
+My blog uses these images to build and deploy automatically through Wercker. The source code is [publicly available](https://github.com/sdebruyn/personal-site) on GitHub.

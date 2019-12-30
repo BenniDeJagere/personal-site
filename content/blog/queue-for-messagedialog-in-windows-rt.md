@@ -30,4 +30,4 @@ MessageDialogQueue.PushMessageDialog(myDialog);
 
 The dialog will be displayed after all previous MessageDialogs are closed. Do this for all your MessageDialogs or you'll still run into the problem I mentioned.
 
-{{< gist SamuelDebruyn efaf5ae8e0af3ac2e0d9 >}}
+{{< gist sdebruyn efaf5ae8e0af3ac2e0d9 >}}

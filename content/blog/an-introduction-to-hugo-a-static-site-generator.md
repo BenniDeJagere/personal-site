@@ -31,7 +31,7 @@ The one that caught my attention was [Hugo](http://gohugo.io). It has all the go
 
 The process of creating a new website is very similar to Jekyll. The `hugo` command literally explains itself (`hugo help`) and the [documentation](http://gohugo.io/overview/introduction/) on its website should suffice for most users.
 
-I've successfully migrated my [Jekyll blog](https://github.com/SamuelDebruyn/samueldebruyn.github.io/tree/5f5719a9d4519f8fbd4cdfffa2a10b3f066401ef) to [Hugo](https://github.com/SamuelDebruyn/chipsncookies-site) and haven't regretted it ever since.
+I've successfully migrated my [Jekyll blog](https://github.com/sdebruyn/samueldebruyn.github.io/tree/5f5719a9d4519f8fbd4cdfffa2a10b3f066401ef) to [Hugo](https://github.com/sdebruyn/personal-site) and haven't regretted it ever since.
 
 ## Disadvantages
 

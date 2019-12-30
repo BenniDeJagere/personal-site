@@ -58,8 +58,8 @@ deploy:
 		basedir: public
 		clean_removed_files: true
 		branch: master
-		repo: SamuelDebruyn/samueldebruyn.github.io
-		gh_pages_domain: chipsncookies.com
+		repo: sdebruyn/samueldebruyn.github.io
+		gh_pages_domain: debruyn.dev
 ```
 
 Obviously, you have to change the following variables:
@@ -74,6 +74,6 @@ Push a commit with that file and Wercker should happily start building and deplo
 
 ### A few examples
 
-* the Hugo source code for this blog: https://github.com/SamuelDebruyn/chipsncookies-site
+* the Hugo source code for this blog: https://github.com/sdebruyn/personal-site
 * the wercker app for this blog: https://app.wercker.com/#applications/5586dcbdaf7de9c51b02b0d5
-* the generated source code for this blog: https://github.com/SamuelDebruyn/samueldebruyn.github.io
+* the generated source code for this blog: https://github.com/sdebruyn/samueldebruyn.github.io

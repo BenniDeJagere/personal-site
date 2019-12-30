@@ -10,4 +10,4 @@ Then, a few days later, Google released an awesome template called [Material Des
 
 I was thinking about setting up another website for some side project and wanted to use material design. So I decided to write a material design theme for a simple Hugo blog.
 
-You can check it out at https://github.com/SamuelDebruyn/hugo-material-lite ([demo](http://materialexample.sa.muel.be)) Enjoy!
+You can check it out at https://github.com/sdebruyn/hugo-material-lite ([demo](http://materialexample.sa.muel.be)) Enjoy!

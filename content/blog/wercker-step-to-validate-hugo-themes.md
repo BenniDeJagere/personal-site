@@ -10,7 +10,7 @@ As I [discovered Wercker]({{< relref "blog/continuous-integration-with-hugo-and-
 
 There wasn't any, so I simply wrote a build step for [Wercker](http://wercker.com). The build step validates a Hugo theme using [an example site](https://github.com/spf13/HugoBasicExample). It also checks if you included some files required for a future Hugo themes site. 
 
-The code for the build step is available at https://github.com/SamuelDebruyn/wercker-step-hugo-theme-check and an example *wercker.yml* configuration is included below.
+The code for the build step is available at https://github.com/sdebruyn/wercker-step-hugo-theme-check and an example *wercker.yml* configuration is included below.
 
 ```YAML
 box: debian

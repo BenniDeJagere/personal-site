@@ -31,7 +31,7 @@ pygmentsStyle = "monokai"
     socialmarkup = true
 
 [params.social]
-    github = "SamuelDebruyn"
+    github = "sdebruyn"
     twitter = "S_Debruyn"
     stackoverflow = "1592358"
     linkedin = "samueldebruyn"

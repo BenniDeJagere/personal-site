@@ -84,7 +84,7 @@ On the Linux machine, save the file and exit the text editor. To make sure the n
 
 Because we want to automate the creation and deletion of git repositories, we'll need two scripts. I've provided them below.
 
-{{< gist SamuelDebruyn 5c7004e92b9c293acc5a >}}
+{{< gist sdebruyn 5c7004e92b9c293acc5a >}}
 
 Use the following steps to put them on your system and make them runnable:
 
