@@ -3,21 +3,25 @@ title = "About Sam"
 description = "Who is Sam Debruyn?"
 +++
 
-Sam Debruyn is a Xamarin mobile app developer and technical lead at [3factr](https://3factr.be/). He has worked on tens of mobile apps of which some belong to the most downloaded apps in the Belgian app stores.
+Sam Debruyn is a data engineer at [dataroots](https://dataroots.io/). His interests lie in data engineering, cloud native technologies and machine learning.
 
-## Xamarin?
+## Data Engineering?
 
-Xamarin enables you to develop Android and iOS apps in C#, the most beautiful programming language mankind has ever seen. Sam has been a certified Xamarin mobile developer since July 2016 and is a community leader in the Belgian Xamarin developer community.
+Data Engineering has been around for a while, but the term itself is still relatively new. A lot of people were actually doing data engineering without them even realising it! I personally see as the person who deploys data science solutions and actually puts them in production. A data engineer builds data pipelines, data lakes and works with various data sources and sinks. [This excellent blog post](https://towardsdatascience.com/who-is-a-data-engineer-how-to-become-a-data-engineer-1167ddc12811) explains this in further detail.
 
-## Flutter!
+## Talk tech to me
 
-Flutter is Google's cross-platform app toolkit that allows you to build fast and fluid mobile apps. With Flutter, not only the app itself is fast, but also the development. Flutter is the best way to develop mobile apps.
+These are the technologies I work most with.
 
-## Other interests and skills
+* Programming languages: Python, Scala, Go, SQL, HCL
+* Clouds: Azure, GCP, AWS
+* Tools: Databricks/Spark, Terraform, Docker, Kubernetes
 
-* Continuous integration and deployment
-* Agile development
-* (ASP).NET Core and scalable cloud backends
+This is not my resume, I've worked with other technologies in the past and I'm always eager to play with new technologies.
+
+## I thought you were a mobile app developer?
+
+In 2016 I began my career as a cross-platform mobile app developer using [Xamarin](https://en.wikipedia.org/wiki/Xamarin) and [Flutter](https://flutter.dev). In 2017 I became a technical lead and team lead. I've always had an interest in big data and as a technical lead I helped customers with their solution architecture, including cloud components. This picked my interest and the both interests come together in my current job as a data engineer.
 
 ---
 
