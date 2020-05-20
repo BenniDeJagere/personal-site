@@ -32,7 +32,6 @@ pygmentsStyle = "monokai"
 [params.social]
     github = "sdebruyn"
     twitter = "S_Debruyn"
-    stackoverflow = "1592358"
     linkedin = "samueldebruyn"
 
 [[menu.main]]
