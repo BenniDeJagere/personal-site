@@ -21,7 +21,7 @@ This is not my resume, I've worked with other technologies in the past and I'm a
 
 ## I thought you were a mobile app developer?
 
-In 2016 I began my career as a cross-platform mobile app developer using [Xamarin](https://en.wikipedia.org/wiki/Xamarin) and [Flutter](https://flutter.dev). In 2017 I became a technical lead and team lead. I've always had an interest in big data and as a technical lead I helped customers with their solution architecture, including cloud components. This picked my interest and the both interests come together in my current job as a data engineer.
+In 2016 I began my career as a cross-platform mobile app developer using [Xamarin](https://en.wikipedia.org/wiki/Xamarin) and [Flutter](https://flutter.dev). In 2017 I became a technical lead and team lead. I've always had an interest in big data and as a technical lead I helped customers with their solution architecture, including cloud components. This picked my interest and both interests come together in my current job as a data engineer.
 
 ---
 
