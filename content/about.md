@@ -7,7 +7,7 @@ Sam Debruyn is a data engineer at [dataroots](https://dataroots.io/). His intere
 
 ## Data Engineering?
 
-Data Engineering has been around for a while, but the term itself is still relatively new. A lot of people were actually doing data engineering without them even realising it! I personally see as the person who deploys data science solutions and actually puts them in production. A data engineer builds data pipelines, data lakes and works with various data sources and sinks. [This excellent blog post](https://towardsdatascience.com/who-is-a-data-engineer-how-to-become-a-data-engineer-1167ddc12811) explains this in further detail.
+Data Engineering has been around for a while, but the term itself is still relatively new. A lot of people were actually doing data engineering without them even realising it! I personally see a data engineer as the person who deploys data science solutions and actually puts them in production. A data engineer builds data pipelines, data lakes and works with various data sources and sinks. [This excellent blog post](https://towardsdatascience.com/who-is-a-data-engineer-how-to-become-a-data-engineer-1167ddc12811) explains this in further detail.
 
 ## Talk tech to me
 
