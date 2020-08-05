@@ -15,7 +15,8 @@ a:hover,
 a:visited,
 a:link {
     text-decoration: none;
-    color: #526d7a;
+    color: #3c7a99;
+    font-weight: bolder;
 }
 
 body {
