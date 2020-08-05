@@ -1,7 +1,7 @@
 ---
 title: "Debugging a Terraform provider"
 date: 2020-08-05T22:13:55+02:00
-tags: ["Terraform"]
+tags: ["Terraform", "Go"]
 ---
 
 While contributing to a couple of [Terraform providers](https://github.com/databrickslabs/terraform-provider-databricks) I often found the need to set some breakpoints in the provider code and inspect what was going at runtime.
