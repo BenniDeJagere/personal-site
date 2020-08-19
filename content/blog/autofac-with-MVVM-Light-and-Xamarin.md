@@ -182,7 +182,3 @@ var myVar = "some required constructor parameter for e.g. a ViewModel";
 var factory = ServiceLocator.Current.GetInstance<MyViewModelRequiringAParameter.Factory>();
 var vm = factory(myVar);
 ```
-
-## Questions?
-
-Questions? Tips/suggestions? [Let me know!]({{< relref "about.md" >}})
