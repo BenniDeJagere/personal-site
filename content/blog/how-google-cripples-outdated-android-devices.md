@@ -2,6 +2,7 @@
 date = "2015-03-23T00:00:00+00:00"
 title = "How Google cripples outdated Android devices"
 tags = ["Android", "Google"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Why I downgraded my Nexus 5

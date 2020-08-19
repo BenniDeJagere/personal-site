@@ -2,6 +2,7 @@
 date = "2015-08-23T22:30:51+02:00"
 title = "Hardening your WordPress security"
 tags = ["WordPress", "security"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Introduction

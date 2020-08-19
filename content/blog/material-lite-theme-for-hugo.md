@@ -2,6 +2,7 @@
 date = "2015-07-13T08:00:00+02:00"
 title = "Material-lite theme for Hugo"
 tags = ["Google", "Hugo"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 Last week, [I wrote a post]({{< relref "blog/an-introduction-to-hugo-a-static-site-generator.md" >}}) about how awesome [Hugo](http://gohugo.io) is and why I switched from Jekyll to Hugo.

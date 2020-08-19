@@ -2,6 +2,7 @@
 date = "2015-06-27T17:55:40+02:00"
 title = "About that time I dealt with a bunch of hackers on a WordPress"
 tags = ["WordPress", "security"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 So yeah, that happened. I recently took over 2 WordPress installations hosted on a [Versio](http://www.versio.uk/) shared hosting account. Versio suspended the account because it kept sending thousands of (spam) emails a day.

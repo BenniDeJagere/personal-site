@@ -2,6 +2,7 @@
 date = "2015-10-02T15:34:19+02:00"
 title = "How to get around OnePlus's horrible invite system"
 tags = ["OnePlus", "Android"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 [OnePlus](https://oneplus.net/), the company famous for its [terrible service](https://www.google.be/search?q=oneplus+service+horror+story) and its [miserable invite system](http://www.androidpolice.com/2015/07/30/editorial-if-oneplus-will-basically-just-lie-with-marketing-slogans-we-have-no-reason-to-respect-them/), failed once again.

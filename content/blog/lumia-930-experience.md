@@ -3,6 +3,7 @@ date = "2016-03-13T12:28:43+01:00"
 draft = false
 title = "The Kafkaesque experience you get when buying a Windows Phone flagship"
 tags = ["Windows Phone", "Windows 10"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 Last summer my LG Nexus 5 had become unusable. The power buttons showed serious signs of wear and sometimes put my phone in a reboot loop. The battery didn’t last longer than a few hours and the phone usually died on me with more than 30% battery remaining. [Apparently](https://www.reddit.com/r/Nexus5/comments/2rpfuj/nexus_5_broken_power_button_keeps_rebooting/), these are normal problems for a one year old Nexus 5...

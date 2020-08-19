@@ -3,6 +3,7 @@ date = "2015-07-06T14:14:32+02:00"
 title = "Recovering a hacked WordPress"
 aliases = ["2015/recovering-from-a-hacked-wordpress/"]
 tags = ["WordPress", "security"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Introduction

@@ -3,6 +3,7 @@ date = "2013-12-09T00:00:00+00:00"
 title = "Connecting Serviio with Telenet's Yelo TV"
 tags = ["DLNA"]
 aliases = ["2013/12/connecting-serviio-with-telenets-yelo-tv/"]
+expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Introduction
