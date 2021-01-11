@@ -3,7 +3,7 @@ title = "About Sam"
 description = "Who is Sam Debruyn?"
 +++
 
-Sam Debruyn is a data engineer at [dataroots](https://dataroots.io/). His interests lie in data engineering, cloud native technologies and machine learning.
+Sam Debruyn is currently working as a data engineer / consultant. His interests lie in data engineering, cloud native technologies and machine learning.
 
 ## Data Engineering?
 

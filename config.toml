@@ -16,8 +16,7 @@ pygmentsStyle = "monokai"
 
 [params]
     author = "Sam Debruyn"
-    intro = "🚜 data engineer at [dataroots](https://dataroots.io)"
-    description = "I previously worked as 📱 mobile app developer & technical lead, but I finally decided to take the 💦 plunge into the data lake and fly through the ☁ clouds."
+    intro = "🚜 data engineer"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
