@@ -16,7 +16,7 @@ pygmentsStyle = "monokai"
 
 [params]
     author = "Sam Debruyn"
-    intro = "🚜 data engineer"
+    intro = "🚜 data & cloud engineer"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
