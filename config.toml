@@ -42,6 +42,6 @@ pygmentsStyle = "monokai"
     weight = 200
     url = "/blog/"
 [[menu.main]]
-    name = "I also write on the dataroots blog"
+    name = "dataroots blog"
     weight = 300
     url = "https://dataroots.io/research/contributions/"
