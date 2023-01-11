@@ -1,6 +1,7 @@
 +++
 title = "About Sam"
 description = "Who is Sam Debruyn?"
+showpagemeta = false
 +++
 
 Sam Debruyn is currently working as a Technical Lead Data & Cloud. His interests lie in data engineering and cloud native technologies.
