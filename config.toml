@@ -27,6 +27,7 @@ pygmentsStyle = "monokai"
 [params.extra]
     poweredby = false
     socialmarkup = true
+    rss = false
 
 [params.social]
     github = "sdebruyn"
