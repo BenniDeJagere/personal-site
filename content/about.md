@@ -3,7 +3,7 @@ title = "About Sam"
 description = "Who is Sam Debruyn?"
 +++
 
-Sam Debruyn is currently working as a data engineer / consultant. His interests lie in data engineering and cloud native technologies.
+Sam Debruyn is currently working as a Technical Lead Data & Cloud. His interests lie in data engineering and cloud native technologies.
 
 ## Data Engineering?
 
@@ -13,15 +13,11 @@ Data Engineering has been around for a while, but the term itself is still relat
 
 These are the technologies I work most with.
 
-* Programming languages: Python, SQL, Scala, Go, HCL...
+* Programming languages: Python, SQL, Go, HCL, Scala...
 * Cloud: ❤️ Azure
 * Tools: dbt, Databricks/Spark, Terraform, Docker, Kubernetes...
 
 This is not my resume, I've worked with other technologies in the past and I'm always eager to play with new technologies.
-
-## I thought you were a mobile app developer?
-
-In 2016 I began my career as a cross-platform mobile app developer using [Xamarin](https://en.wikipedia.org/wiki/Xamarin) and [Flutter](https://flutter.dev). In 2017 I became a technical lead and team lead. I've always had an interest in big data and as a technical lead I helped customers with their solution architecture, including cloud components. This sparked my interest and both interests come together in my current job as a data engineer.
 
 ---
 
