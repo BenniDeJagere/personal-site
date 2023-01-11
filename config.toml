@@ -16,13 +16,13 @@ pygmentsStyle = "monokai"
 
 [params]
     author = "Sam Debruyn"
-    intro = "🚜 data & cloud engineer"
+    intro = "🚜 technical lead data & cloud"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
     description = "Sam Debruyn"
-    keywords = "data engineer,developer,portfolio,blog,cloud,cloud native"
+    keywords = "tech lead,cloud engineer,data engineer,developer,portfolio,blog,cloud,cloud native"
 
 [params.extra]
     poweredby = false
@@ -38,10 +38,6 @@ pygmentsStyle = "monokai"
     weight = 100
     url = "/about/"
 [[menu.main]]
-    name = "blog"
-    weight = 200
-    url = "/blog/"
-[[menu.main]]
     name = "dataroots blog"
-    weight = 300
+    weight = 200
     url = "https://dataroots.io/research/contributions/"
