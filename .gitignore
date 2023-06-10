@@ -1,23 +1,22 @@
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,code,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,code,macos
 
-# Created by https://www.gitignore.io/api/hugo,code,macos
-# Edit at https://www.gitignore.io/?templates=hugo,code,macos
-
-### Code ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+#!! ERROR: code is undefined. Use list command to see defined gitignore types !!#
 
 ### Hugo ###
 # Generated files by hugo
 /public/
 /resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### macOS ###
 # General
@@ -27,6 +26,7 @@ hugo.linux
 
 # Icon must end with two \r
 Icon
+
 
 # Thumbnails
 ._*
@@ -47,4 +47,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/hugo,code,macos
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,code,macos
