@@ -16,13 +16,13 @@ pygmentsStyle = "monokai"
 
 [params]
     author = "Sam Debruyn"
-    intro = "🚜 technical lead data & cloud"
+    intro = "Cloud Data Solution Architect"
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
     description = "Sam Debruyn"
-    keywords = "tech lead,cloud engineer,data engineer,developer,portfolio,blog,cloud,cloud native"
+    keywords = "azure,data,dbt,tech lead,cloud engineer,data engineer"
 
 [params.extra]
     poweredby = false
@@ -34,12 +34,21 @@ pygmentsStyle = "monokai"
     github = "sdebruyn"
     twitter = "S_Debruyn"
     linkedin = "samueldebruyn"
+    stackoverflow = "1592358"
 
 [[menu.main]]
     name = "about"
-    weight = 100
     url = "/about/"
+    weight = 100
 [[menu.main]]
     name = "dataroots blog"
-    weight = 200
     url = "https://dataroots.io/research/contributions/"
+    weight = 200
+[[menu.main]]
+    name = "certifications (1/2)"
+    url = "https://www.credly.com/users/debruyn"
+    weight = 305
+[[menu.main]]
+    name = "certifications (2/2)"
+    url = "https://www.credential.net/profile/debruyn"
+    weight = 310
