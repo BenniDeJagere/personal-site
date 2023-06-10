@@ -21,7 +21,7 @@ pygmentsStyle = "monokai"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
-    description = "Sam Debruyn"
+    description = "Sam Debruyn - Cloud Data Solution architect specialized in Azure, dbt, Terraform, data engineering, cloud engineering"
     keywords = "azure,data,dbt,tech lead,cloud engineer,data engineer"
 
 [params.extra]
