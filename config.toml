@@ -17,6 +17,7 @@ pygmentsStyle = "monokai"
 [params]
     author = "Sam Debruyn"
     intro = "Cloud Data Solution Architect"
+    description = "Specialized in Microsoft Azure & modern data stack. Public speaker & meetup organizer. FOSS contributor. Currently tech lead data & cloud at [dataroots](https://dataroots.io/)."
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
@@ -41,9 +42,13 @@ pygmentsStyle = "monokai"
     url = "/about/"
     weight = 100
 [[menu.main]]
+    name = "blog"
+    url = "/blog/"
+    weight = 200
+[[menu.main]]
     name = "dataroots blog"
     url = "https://dataroots.io/research/contributions/"
-    weight = 200
+    weight = 250
 [[menu.main]]
     name = "certifications (1/2)"
     url = "https://www.credly.com/users/debruyn"
