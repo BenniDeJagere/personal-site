@@ -10,7 +10,7 @@ After gaining 4 years of experience in data & cloud engineering and after about 
 
 The Microsoft stack is where Sam feels at home. By using Microsoft Azure from when it was still called Windows Azure and by working with all aspects of the cloud, he became a trusted source of knowledge for his colleagues and customers.
 
-Sharing knowledge is at the heart of everything that Sam believes in. Sam is a regular speaker at conferences and meetups and he organized lots of local meetups on the topics he was or is passionate about: Azure, dbt, Terraform, Airflow, Prefect, .NET, Xamarin...
+Sharing knowledge is at the heart of everything that Sam believes in. Sam is a regular speaker at local and international conferences and meetups and he organized lots of local meetups on the topics he was or is passionate about: Azure, dbt, Terraform, Airflow, Prefect, .NET, Xamarin...
 
 Next to sharing knowledge, contributing back to open source projects is also something Sam truly believes in. With over 200 closed pull requests on public organizations on GitHub, he gained a lot of knowledge on the inner workings of popular technologies. He is a maintainer of the dbt adapters for all Microsoft SQL products like SQL Server, Azure SQL, Azure Synapse, and Microsoft Fabric.
 
