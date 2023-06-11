@@ -267,3 +267,6 @@ pre > code {
     word-wrap: initial;
     word-break: initial;
 }
+blockquote {
+    font-style: italic;
+}
