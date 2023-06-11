@@ -1,5 +1,5 @@
 ---
-title: "Why Dask and not Spark @ Mediahuis"
+title: "Mediahuis: Why Dask and not Spark?"
 date: 2021-06-07
 tags: [speaking, dask, spark, data, platform, mediahuis, rootlabs]
 ---
