@@ -4,7 +4,10 @@ date: 2020-06-05
 tags: ["speaking", "meetup", "dataroots", "azure", "terraform", "data lake"]
 ---
 
->This talk was given during a lunch webinar at [dataroots](https://dataroots.io).
+This talk was given on multiple occasions:
+
+* During a [lunch webinar](https://www.meetup.com/dataroots-research/events/270741567/) at [dataroots](https://dataroots.io).
+* At Data Science Leuven ([event details](https://www.meetup.com/data-science-leuven/events/273372837/)).
 
 A data lake is fundamental to a modern big data approach so it’s important to set it up the right way. But how can you do that without having to spend hours on research and then losing days configuring every component of the data lake? How can you gain a lot of time, while still deploying a fully functional data lake with all the necessary components?
 
