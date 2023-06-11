@@ -1,0 +1,15 @@
+---
+title: "Deploy a data lake on Azure in less than an hour"
+date: 2020-06-05
+tags: ["speaking", "meetup", "dataroots", "azure", "terraform", "data lake"]
+---
+
+>This talk was given during a lunch webinar at [dataroots](https://dataroots.io).
+
+A data lake is fundamental to a modern big data approach so it’s important to set it up the right way. But how can you do that without having to spend hours on research and then losing days configuring every component of the data lake? How can you gain a lot of time, while still deploying a fully functional data lake with all the necessary components?
+
+During this webinar we’ll talk about the Terraform module we’ve built to deploy a complete, ready-to-go data lake to Microsoft Azure. We’ll explain which components are crucial and how the module handles deployment and configuration all for you. We’ll end with a demo and you’ll have the opportunity to ask any questions that you might still have.
+
+The Terraform module is open source and can be found on [GitHub](https://github.com/datarootsio/terraform-module-azure-datalake).
+
+{{< youtube hC33eUEkXpU >}}
