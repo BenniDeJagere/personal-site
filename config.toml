@@ -53,6 +53,10 @@ pygmentsStyle = "monokai"
     url = "/tags/speaking/"
     weight = 200
 [[menu.main]]
+    name = "open source contributions"
+    url = "https://github.com/pulls?q=is%3Aclosed+is%3Apr+author%3Asdebruyn"
+    weight = 900
+[[menu.main]]
     name = "dataroots blog"
     url = "https://dataroots.io/research/contributions/"
     weight = 999
