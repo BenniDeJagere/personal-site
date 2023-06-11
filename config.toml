@@ -50,7 +50,7 @@ pygmentsStyle = "monokai"
     weight = 200
 [[menu.main]]
     name = "public speaking & meetups"
-    url = "/speaking/"
+    url = "/tags/speaking/"
     weight = 200
 [[menu.main]]
     name = "open source contributions"
