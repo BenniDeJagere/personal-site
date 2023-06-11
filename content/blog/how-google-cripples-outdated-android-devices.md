@@ -2,7 +2,6 @@
 date = "2015-03-23T00:00:00+00:00"
 title = "How Google cripples outdated Android devices"
 tags = ["Android", "Google"]
-expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Why I downgraded my Nexus 5
@@ -59,7 +58,7 @@ adb shell su -c pm disable com.google.android.gsf/.update.SystemUpdatePanoActivi
 adb shell su -c pm disable com.google.android.gsf/.update.SystemUpdateService$Receiver
 adb shell su -c pm disable com.google.android.gsf/.update.SystemUpdateService$SecretCodeReceiver
 ```
-    
+
 ## Wow, that was complicated
 
 For power users this probably wasn’t a lot of work, but this is a real annoyance for regular users. But regular users don’t buy Nexus devices, don’t they?

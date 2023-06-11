@@ -3,7 +3,6 @@ date = "2015-08-26T07:51:16+02:00"
 draft = false
 title = "Experiences with Windows 10 on a new Dell XPS 13 (2015)"
 tags = ["Dell", "Windows 10"]
-expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Ordering a new workhorse

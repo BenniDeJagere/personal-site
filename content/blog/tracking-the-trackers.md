@@ -3,7 +3,6 @@ date = "2015-11-18T21:37:49+01:00"
 draft = false
 title = "Tracking the trackers"
 tags = ["tracking"]
-expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 Advertisements are the worst. We all hate them. They are a lame excuse for bad content for which their consumers aren't willing to pay. To make them kind of tolerable, the advertisers started tracking us so they could deliver ads based on our interests.

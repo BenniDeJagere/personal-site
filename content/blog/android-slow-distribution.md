@@ -3,7 +3,6 @@ date = "2016-03-29T08:25:38+02:00"
 draft = false
 title = "Android update distribution is getting worse"
 tags = ["Android"]
-expiryDate = "2020-08-19T00:00:00+02:00"
 +++
 
 ## Why it matters
