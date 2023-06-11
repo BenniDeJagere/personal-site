@@ -4,21 +4,15 @@ description = "Who is Sam Debruyn?"
 showpagemeta = false
 +++
 
-Sam Debruyn is currently working as a Technical Lead Data & Cloud. His interests lie in data engineering and cloud native technologies.
+Sam Debruyn currently works as a Technical Lead Data & Cloud at [dataroots](https://dataroots.io/). At the age of 10 he began to read books about programming and it never stopped fascinating him. In the next decade he continued to develop this passion by learning about different programming languages and technologies and ended up making a career out of his hobby.
 
-## Data Engineering?
+After gaining 4 years of experience in data & cloud engineering and after about 10 years of experience in software engineering and architecture, he embarked on the mission of tech lead for the data & cloud unit at Dataroots. Sam has worked on tens of projects in multiple sectors with companies of all sizes and varying technologies. This includes small companies like local start-ups, multinationals, as well as banks and one of Belgium's biggest players in the public transportation sector. In the role of tech lead, Sam is responsible for the technical aspects of the cloud and data engineering projects. By working closely with customers, he designs and advices on building, extending and using data platforms matching their exact needs. He coaches and guides teams through technical challenges and helps them to grow.
 
-Data Engineering has been around for a while, but the term itself is still relatively new. A lot of people were actually doing data engineering without them even realising it! I personally see a data engineer as the person who deploys data platforms and data science solutions and actually puts them in production. A data engineer builds data pipelines, data lakes, data warehouses and works with various data sources and sinks. [Roadmap to becoming a data engineer](https://github.com/datastacktv/data-engineer-roadmap).
+The Microsoft stack is where he Sam feels at home. By using Microsoft Azure from when it was still called Windows Azure and by working with all aspects of the cloud, he became a trusted source of knowledge for his colleagues and customers.
 
-## Talk tech to me
+Sharing knowledge is at the heart of everything where Sam believes in. Sam is a regular speaker at conferences and meetups and he organized lots of local meetups on the topics he was or is passionate about: Azure, dbt, Terraform, Airflow, Prefect, .NET, Xamarin...
 
-These are the technologies I work most with.
-
-* Programming languages: Python, SQL, Go, HCL, Scala...
-* Cloud: ❤️ Azure
-* Tools: dbt, Databricks/Spark, Terraform, Docker, Kubernetes...
-
-This is not my resume, I've worked with other technologies in the past and I'm always eager to play with new technologies.
+Next to sharing knowledge, contributing back to open source projects is also something Sam truly believes in. With over 200 closed pull requests on public organizations on GitHub, he gained a lot of knowledge on the inner workings of popular technologies. He is a maintainer of the dbt adapters for all Microsoft SQL products like SQL Server, Azure SQL, Azure Synapse and Microsoft Fabric.
 
 ---
 

@@ -46,9 +46,9 @@ pygmentsStyle = "monokai"
     url = "/blog/"
     weight = 200
 [[menu.main]]
-    name = "dataroots blog"
-    url = "https://dataroots.io/research/contributions/"
-    weight = 250
+    name = "public speaking & meetups"
+    url = "/tags/speaking/"
+    weight = 200
 [[menu.main]]
     name = "certifications (1/2)"
     url = "https://www.credly.com/users/debruyn"
@@ -57,3 +57,7 @@ pygmentsStyle = "monokai"
     name = "certifications (2/2)"
     url = "https://www.credential.net/profile/debruyn"
     weight = 310
+[[menu.main]]
+    name = "dataroots blog"
+    url = "https://dataroots.io/research/contributions/"
+    weight = 999
