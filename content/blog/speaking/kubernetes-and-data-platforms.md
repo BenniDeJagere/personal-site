@@ -1,5 +1,5 @@
 ---
-title: "AZUG: Kubernetes and data platforms on Azure"
+title: "Building & deploying Azure self-service data platforms for healthcare @ AZUG"
 date: 2022-05-10
 tags: [speaking, kubernetes, data platform, azug, dataroots, lynxcare, healthcare, self-service analytics, azure, devops, terraform]
 ---

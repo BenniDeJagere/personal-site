@@ -1,5 +1,5 @@
 ---
-title: "Tech Dive September 2019: serverless on Azure"
+title: "Serverless on Azure @ Tech Dive September 2019"
 date: 2019-09-26
 tags: [speaking, Azure, Azure Functions, serverless]
 ---

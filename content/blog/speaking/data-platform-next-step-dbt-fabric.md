@@ -1,5 +1,5 @@
 ---
-title: "Data Platform Next Step - dbt & Fabric: better together"
+title: "dbt & Fabric: better together @ Data Platform Next Step"
 date: 2023-06-09
 tags: [speaking, dbt, fabric, data platform, dataops, data engineering, data analytics,  data warehouse, data lake]
 ---
