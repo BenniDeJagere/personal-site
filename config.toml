@@ -57,6 +57,6 @@ pygmentsStyle = "monokai"
     url = "https://github.com/pulls?q=is%3Aclosed+is%3Apr+author%3Asdebruyn"
     weight = 900
 [[menu.main]]
-    name = "dataroots blog"
-    url = "https://dataroots.io/research/contributions/"
+    name = "posts on the dataroots blog"
+    url = "https://dataroots.ghost.io/author/sam/"
     weight = 999
