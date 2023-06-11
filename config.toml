@@ -42,22 +42,22 @@ buildFuture = true
     accredible = "debruyn"
 
 [[menu.main]]
-    name = "about"
+    name = "about Sam"
     url = "/about/"
     weight = 100
 [[menu.main]]
     name = "blog"
     url = "/blog/"
-    weight = 200
+    weight = 400
 [[menu.main]]
     name = "public speaking & meetups"
     url = "/speaking/"
-    weight = 200
+    weight = 300
 [[menu.main]]
     name = "open source contributions"
     url = "https://github.com/pulls?q=is%3Aclosed+is%3Apr+author%3Asdebruyn"
-    weight = 900
+    weight = 200
 [[menu.main]]
-    name = "posts on the dataroots blog"
+    name = "dataroots blog contributions"
     url = "https://dataroots.ghost.io/author/sam/"
     weight = 999
