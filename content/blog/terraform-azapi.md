@@ -1,9 +1,13 @@
 ---
 title: "Filling the gaps in your code with the Terraform azapi provider for Azure"
 date: 2022-07-04T16:28:43+02:00
+tags: ["terraform", "azure", "bicep", "arm"]
+toc: false
 ---
 
 > This post originally appeared on [the dataroots blog](https://dataroots.io/research/contributions/terraform-with-azure/).
+
+![](https://dataroots.io/static/a4f1a6518431eb20f2403e36e59a7f57/48c06/terraform-azure.webp)
 
 The cloud is just someone else's computer and to manage that we prefer to use Infrastructure as Code (IaC). dataroots believes that IaC can benefit any team working with cloud resources and most often [Terraform](https://www.terraform.io/) is [our tool of choice](https://registry.terraform.io/namespaces/datarootsio) there. As a data & cloud engineer focusing on Microsoft Azure, that is true for me as well. However, there have been a couple of hick-ups along the road.
 
