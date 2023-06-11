@@ -1,6 +1,6 @@
 ---
 title: "Some interesting takeaways from this year's Techorama"
-date: 2023-06-09T16:37:50+02:00
+date: 2022-06-09T16:37:50+02:00
 tags: ["techorama", "azure", "kubernetes", "sql server"]
 ---
 
