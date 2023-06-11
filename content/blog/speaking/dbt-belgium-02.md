@@ -1,5 +1,5 @@
 ---
-title: "dbt Belgium Meetup #2"
+title: "dbt Belgium Meetup 2"
 date: 2023-06-14
 tags: [speaking, analytics engineering, data engineering, data platform, dbt]
 ---
