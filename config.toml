@@ -37,6 +37,8 @@ pygmentsStyle = "monokai"
     linkedin = "samueldebruyn"
     stackoverflow = "1592358"
     meetup = "186807757"
+    credly = "debruyn"
+    accredible = "debruyn"
 
 [[menu.main]]
     name = "about"
