@@ -8,7 +8,7 @@ Sam Debruyn currently works as a Technical Lead Data & Cloud at [dataroots](http
 
 After gaining 4 years of experience in data & cloud engineering and after about 10 years of experience in software engineering and architecture, he embarked on the mission of tech lead for the data & cloud unit at Dataroots. Sam has worked on tens of projects in multiple sectors with companies of all sizes and varying technologies. This includes small companies like local start-ups, multinationals, as well as banks and one of Belgium's biggest players in the public transportation sector. In the role of tech lead, Sam is responsible for the technical aspects of the cloud and data engineering projects. By working closely with customers, he designs and advices on building, extending and using data platforms matching their exact needs. He coaches and guides teams through technical challenges and helps them to grow.
 
-The Microsoft stack is where he Sam feels at home. By using Microsoft Azure from when it was still called Windows Azure and by working with all aspects of the cloud, he became a trusted source of knowledge for his colleagues and customers.
+The Microsoft stack is where Sam feels at home. By using Microsoft Azure from when it was still called Windows Azure and by working with all aspects of the cloud, he became a trusted source of knowledge for his colleagues and customers.
 
 Sharing knowledge is at the heart of everything where Sam believes in. Sam is a regular speaker at conferences and meetups and he organized lots of local meetups on the topics he was or is passionate about: Azure, dbt, Terraform, Airflow, Prefect, .NET, Xamarin...
 
