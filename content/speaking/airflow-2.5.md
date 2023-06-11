@@ -16,3 +16,5 @@ Remember when you last used Airflow? You might have been scratching your head a 
 - KubernetesPodOperator vs. KubernetesExecutor vs. KubernetesCeleryExecutor
 - Official Helm chart
 - Comparison with Prefect
+
+[Slides](https://docs.google.com/presentation/d/1eQymNRVZNigFdELxQSJVxdBdJX_4rcIqgEjLFcaDGSU/edit?usp=sharing)

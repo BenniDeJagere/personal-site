@@ -9,6 +9,7 @@ enableGitInfo = true
 author = "Sam Debruyn"
 enableRobotsTXT = true
 pygmentsStyle = "monokai"
+buildFuture = true
 
 [permalinks]
     blog = "/:year/:title/"
@@ -50,7 +51,7 @@ pygmentsStyle = "monokai"
     weight = 200
 [[menu.main]]
     name = "public speaking & meetups"
-    url = "/tags/speaking/"
+    url = "/speaking/"
     weight = 200
 [[menu.main]]
     name = "open source contributions"
