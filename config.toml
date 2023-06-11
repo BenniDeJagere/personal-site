@@ -36,6 +36,7 @@ pygmentsStyle = "monokai"
     twitter = "S_Debruyn"
     linkedin = "samueldebruyn"
     stackoverflow = "1592358"
+    meetup = "186807757"
 
 [[menu.main]]
     name = "about"
