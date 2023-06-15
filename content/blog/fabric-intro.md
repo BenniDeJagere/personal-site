@@ -24,7 +24,7 @@ Fabric Fabric Fabric, what is it all about? In this post I'll go deeper into wha
 
 As the title says, one of the components of Fabric is Microsoft's first third-generation data warehouse. "Third" means there must be two generations before it, right? Let's take a look at those first.
 
-## First generation: Teradata, PDW...
+## First generation: Teradata and friends
 
 In the nineties, the first data warehouses appeared. With them, came the concept of dimensional modeling (Kimball published *The Data Warehouse Toolkit* in 1996). While these were good at the time, it doesn't make much sense to use these monolithic slow giants today.
 
