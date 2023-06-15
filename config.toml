@@ -23,7 +23,7 @@ buildFuture = true
     dateformat = "Jan 2, 2006"
 
 [params.meta]
-    description = "Sam Debruyn - Cloud Data Solution Architect specialized in Azure, dbt, Terraform, data engineering, cloud engineering"
+    description = "Sam Debruyn - Cloud Data Solution Architect specialized in Microsoft Azure & modern data stack."
     keywords = "azure,data,dbt,tech lead,cloud engineer,data engineer"
 
 [params.extra]
