@@ -4,6 +4,8 @@ date: 2023-06-15T20:15:11+02:00
 tags: ["fabric", "synapse", "SQL", "data warehouse", "lakehouse", "Microsoft", "data platform", "data lake"]
 ---
 
+![Fabric header](/img/post/2023/fabric_header.jpeg)
+
 While typing this blog post, I'm flying back from the [Data Platform Next Step](https://dataplatformnextstep.com/) conference where I gave a talk about using [dbt](https://www.getdbt.com/) with [Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/). DP Next Step was the first conference focussed on Microsoft data services right after the announcement of Microsoft Fabric so a lot of speakers were Microsoft employees and most of the talks had some Fabric content.
 
 ![Microsoft Fabric logo](/img/post/2023/fabric.png)
