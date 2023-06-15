@@ -4,7 +4,7 @@ date: 2023-06-14
 tags: [speaking, analytics engineering, data engineering, data platform, dbt]
 ---
 
-![agenda](https://secure.meetupstatic.com/photos/event/d/9/9/600_513663481.webp?w=750)
+![agenda](https://secure.meetupstatic.com/photos/event/d/9/9/600_513663481.webp)
 
 [Event details](https://www.meetup.com/analytics-engineering-belgium/events/291436510/)
 
