@@ -13,10 +13,10 @@ Fabric Fabric Fabric, what is it all about? In this post I'll go deeper into wha
 > Not so curious about why I think Fabric is the best thing to happen in the Microsoft data ecosystem? This is the TL;DR of this post:
 > * All data, however you create it, is stored in a data lake called OneLake
 > * No more copying data, just link the data you already have
-> * Fabric uses the popular open source Delta format
+> * Fabric uses the popular open-source Delta format
 > * Fabric decouples storage and compute
 > * Fabric can scale automatically and can scale to 0
-> * Fabric is a true lakehouse and built for the cloud
+> * Fabric is a true lakehouse and was built for the cloud
 > * The cheapest pricing tier for Fabric is more than 5x times cheaper than Synapse > Dedicated SQL
 > * Fabric does not build upon Synapse Dedicated SQL and this will soon be the "previous generation"
 > * Fabric is expected to go live near the end of 2023 with a public preview available for free
@@ -97,7 +97,7 @@ Synapse Dedicated SQL Pools are the second generation data warehouses based on P
 
 With OneLake, Microsoft also introduced the concept of the single copy. You don't have to copy data from your Microsoft Sharepoint, Azure ADLS, AWS S3 or GCP GCS data lakes to use them, you can just create Shortcuts. These are a sort of logical links that just point to your data and the Fabric engines can directly connect to them.
 
-This is not confirmed, but my expectation is that Microsoft will soon add the capability to link more existing data sources like Azure SQL, Dataverse and more.
+This is not confirmed, but my expectation is that Microsoft will soon add the capability to link more existing data sources like Azure SQL, DataVerse, and more.
 
 ## Fabric engines
 
@@ -123,7 +123,7 @@ After that, you can either buy Power BI Premium capacities or Azure Fabric capac
 
 You can get started with Azure Fabric capacities for as low as a few hundred USD per month. This is a lot cheaper than the previous generations.
 
-## On Databricks, Power BI and Microsoft Excel
+## On Databricks, Power BI, and Microsoft Excel
 
 You might think "Wait, we already have a great lakehouse product on Microsoft Azure: Databricks!" And you're 100% correct. You could even say that in some ways Databricks resembles Fabric closer than Synapse. As both Databricks and Fabric are lakehouses built upon Delta lakes, they both achieve the same goal but in different ways.
 
