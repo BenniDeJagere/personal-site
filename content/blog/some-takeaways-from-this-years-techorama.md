@@ -48,15 +48,11 @@ When thinking about security of cloud services, you usually have to consider (at
 
 ![](https://dataroots.ghost.io/content/images/2022/06/Screenshot-2022-06-03-at-12.02.07.png)
 
-better think twice before enabling this setting
-
 You might have come across the checkbox above when configuring access Azure resources like a SQL Server. And when configuring network access, you might think the checkbox above is a good idea. Personally, I'd assume this would grant network access to this SQL Server from all other Azure resources I've created.
 
 Unfortunately, that answer is incorrect. It grants access to the entirety of Azure. A malicious user, acting in their own tenant, creating a virtual machine meant to attack Azure users, could also get through. In general, it seems that this checkbox could use a clearer warning and I would now advise against checking it. Thanks to Sergey Chubarov for demonstrating this behaviour.
 
 ![](https://dataroots.ghost.io/content/images/2022/06/IMG_20220525_093437.jpg)
-
-Sergey's mitigations for the attacks on cloud infrastructure that he demonstrated
 
 ### Authorization
 
@@ -79,8 +75,6 @@ Azure SQL Databases: more than just a database
 Without any doubt my favourite session during the whole conference was the one given by Pieter Vanhove. He turned the session into a mini-workshop where attendees were divided into small groups and had to - literally - use pieces of a puzzle to build a solution for a concrete use case. In the use case, a company was planning on migrating their on-premise SQL Server to the cloud and we had to design all aspects of the migration journey.
 
 ![](https://dataroots.ghost.io/content/images/2022/06/IMG_20220525_144211.jpg)
-
-the puzzle with the preferred migration design
 
 Azure provides users with options which allows them to really finetune every aspect of the migration and configuration of a SQL database so that you can make it fit every company's needs.
 

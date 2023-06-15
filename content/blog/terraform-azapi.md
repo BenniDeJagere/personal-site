@@ -155,8 +155,6 @@ Now, why is this so much better than the regular [`azurerm_template_deployment`
 
 ![](https://dataroots.ghost.io/content/images/2022/06/image-3.png)
 
-Deployments in Azure
-
 This changes with `azapi`. All properties of the resource become part of the Terraform state and Terraform starts tracking changes to it, knows when it has to update the resource in Azure and can properly delete it as well. It becomes a native Terraform resource.
 
 > With azapi, the resources become native Terraform resources, benefiting from all the features Terraform brings to the table.
