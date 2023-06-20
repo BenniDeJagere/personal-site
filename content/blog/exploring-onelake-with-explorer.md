@@ -12,6 +12,8 @@ To store the data in the OneLake, Microsoft Fabric makes use of [Delta Lake](htt
 
 ## Azure Storage Explorer
 
+![Azure Storage Explorer](/img/post/2023/ase_logo.png "Azure Storage Explorer")
+
 Azure Storage Explorer is a free tool from Microsoft that allows you to manage your Azure Storage accounts. It is available [to download](https://azure.microsoft.com/en-us/products/storage/storage-explorer/) for Windows, macOS, and Linux. Behind the scenes, it uses a combination of REST APIs and the great [AzCopy](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10) tool to interact with your storage accounts.
 
 ## Connecting to OneLake
