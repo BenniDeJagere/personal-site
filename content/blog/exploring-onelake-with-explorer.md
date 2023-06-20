@@ -2,6 +2,7 @@
 title: "Exploring Onelake with Microsoft Azure Storage Explorer"
 date: 2023-06-20T09:30:57+02:00
 tags: ["Azure", "Fabric", "data lake", "OneLake", "Azure Storage Explorer", "lakehouse", "Spark", "Microsoft"]
+images: [/img/post/2023/ase_logo.png]
 ---
 
 ## Recap: OneLake & Delta Lake
