@@ -2,6 +2,7 @@
 title: "Welcome to the 3rd generation: SQL in Microsoft Fabric"
 date: 2023-06-15T20:15:11+02:00
 tags: ["fabric", "synapse", "SQL", "data warehouse", "lakehouse", "Microsoft", "data platform", "data lake"]
+images: [/img/post/2023/fabric_header.jpeg]
 ---
 
 ![Fabric header](/img/post/2023/fabric_header.jpeg)
