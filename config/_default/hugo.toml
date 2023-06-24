@@ -1,15 +1,12 @@
-baseURL = "https://debruyn.dev/"
 languageCode = "en-us"
 title = "Sam Debruyn"
 theme = "hugo-goa"
-googleAnalytics = "G-TG97G5541B"
 pygmentsCodeFences = true
 pygmentsUseClasses = false
 enableGitInfo = true
 author = "Sam Debruyn"
 enableRobotsTXT = true
 pygmentsStyle = "monokai"
-buildFuture = true
 
 [markup]
   [markup.tableOfContents]

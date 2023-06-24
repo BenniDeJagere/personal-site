@@ -1,0 +1,3 @@
+baseURL = "https://debruyn.dev/"
+googleAnalytics = "G-TG97G5541B"
+buildFuture = true
