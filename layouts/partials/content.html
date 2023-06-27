@@ -23,11 +23,11 @@
 </section>
 <section id="content-pane" class="">
   <div class="col-md-12 text-justify content">
-    {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
-    <aside>
-      <strong>Table of Contents</strong>
-      {{ .TableOfContents }}
-    </aside>
+    {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) (gt (.TableOfContents | countwords) 1) }}
+      <aside>
+        <strong>Table of Contents</strong>
+        {{ .TableOfContents }}
+      </aside>
     {{ end }}
     {{ .Content }}
   </div>
