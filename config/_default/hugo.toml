@@ -21,12 +21,12 @@ pygmentsStyle = "monokai"
 [params]
     author = "Sam Debruyn"
     intro = "Cloud Data Solution Architect"
-    description = "Specialized in Microsoft Azure & modern data stack. Public speaker & meetup organizer. FOSS contributor. Currently tech lead data & cloud at [dataroots](https://dataroots.io/)."
+    description = "Specialized in Microsoft Azure, Fabric & modern data stack. Public speaker & meetup organizer. FOSS contributor. Currently tech lead data & cloud at [dataroots](https://dataroots.io/)."
     authorimage = "avatar_crop.jpg"
     dateformat = "Jan 2, 2006"
 
 [params.meta]
-    description = "Sam Debruyn - Cloud Data Solution Architect specialized in Microsoft Azure & modern data stack."
+    description = "Sam Debruyn - Cloud Data Solution Architect specialized in Microsoft Azure, Fabric & modern data stack."
     keywords = "azure,data,dbt,tech lead,cloud engineer,data engineer"
 
 [params.extra]
