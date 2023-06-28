@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Fabric's Auto Discovery: a closer look"
 date: 2023-06-28T09:00:00+02:00
-draft: true
 tags: ["fabric", "delta", "lakehouse", "onelake", "shortcuts", "azure", "data lake", "data warehouse", "data engineering", "spark", "delta lake", "adls"]
 ---
 
