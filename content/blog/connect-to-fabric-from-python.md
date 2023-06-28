@@ -7,6 +7,8 @@ tags: ["fabric", "python", "odbc", "lakehouse", "warehouse", "sql"]
 
 In this post, I will show you how to connect to your Microsoft Fabric Lakehouses and Warehouses from Python.
 
+<!--more-->
+
 ## Packages & dependencies
 
 To connect to Fabric, we'll use the Microsoft ODBC Driver. This driver is available for Windows, Linux, and macOS. Click on your operating system to download and install the driver:
