@@ -2,6 +2,7 @@
 title: "Microsoft Fabric's Auto Discovery: a closer look"
 date: 2023-06-28T09:00:00+02:00
 tags: ["fabric", "delta", "lakehouse", "onelake", "shortcuts", "azure", "data lake", "data warehouse", "data engineering", "spark", "delta lake", "adls"]
+images: ["/img/post/2023/fabric_discovery/empty_lakehouse.png"]
 ---
 
 In [previous posts](/tags/fabric/), I dug deeper into Microsoft Fabric's SQL-based features and we even [explored OneLake using Azure Storage Explorer]({{< relref "blog/exploring-onelake-with-explorer.md" >}}). In this post, I'll take a closer look at Fabric's **auto-discovery** feature using Shortcuts. Auto-discovery, what's that?
