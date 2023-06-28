@@ -11,6 +11,8 @@ In [previous posts](/tags/fabric/), I dug deeper into Microsoft Fabric's SQL-bas
 
 Cool, right? At the time of writing, there is a single condition: the tables must be stored in the Delta Lake format. Let's take a closer look.
 
+<!--more-->
+
 ## Existing data lakes
 
 In this example, I'm starting with an existing data lake that already holds 2 datasets: `green_taxi` and `yellow_taxi`. Both are stored in Delta Lake format in a container called `delta` in an Azure Storage account with Hierarchical Namespaces (Azure Data Lake Storage gen2) enabled and an empty Lakehouse on Fabric.

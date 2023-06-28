@@ -13,6 +13,8 @@ While typing this blog post, I'm flying back from the [Data Platform Next Step](
 
 Fabric Fabric Fabric, what is it all about? In this post I'll go deeper into what it is, why you should care and focus specifically on the SQL aspect of Fabric.
 
+<!--more-->
+
 > Not so curious about why I think Fabric is the best thing to happen in the Microsoft data ecosystem? This is the TL;DR of this post:
 
 > * All data, however you create it, is stored in a data lake called OneLake

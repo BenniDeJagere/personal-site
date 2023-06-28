@@ -9,6 +9,8 @@ images: [/img/post/2023/ase_logo.png]
 
 One of the coolest things about [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric/) is that it nicely decouples storage and compute and it is very transparent about the storage: everything ends up in the OneLake. This is a huge advantage over other data platforms since you don't have to worry about moving data around, it is always available, wherever you need it.
 
+<!--more-->
+
 To store the data in the OneLake, Microsoft Fabric makes use of [Delta Lake](https://delta.io). Delta is an open-source data format built upon Apache Parquet (this is why Microsoft likes to - incorrectly - call it *Delta Parquet*). Delta adds a transaction log to your Parquet files which enables you to do things like time travel, rollbacks, fully ACID transactions, and more. This open-source format was developed by Databricks and is now part of the Linux Foundation.
 
 ## Azure Storage Explorer
