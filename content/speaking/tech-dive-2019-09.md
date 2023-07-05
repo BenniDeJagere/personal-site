@@ -1,7 +1,7 @@
 ---
 title: "Serverless on Azure @ Tech Dive September 2019"
 date: 2019-09-26
-tags: [speaking, Azure, Azure Functions, serverless]
+tags: [Azure, Azure Functions, serverless]
 location: 3factr, Edegem, Belgium
 ---
 

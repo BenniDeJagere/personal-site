@@ -1,7 +1,7 @@
 ---
 title: "James Montemagno on Euro Tour"
 date: 2019-10-24
-tags: [speaking, Xamarin, MADN, VISUG]
+tags: [Xamarin, MADN, VISUG]
 location: Spoor 18, Mechelen, Belgium
 ---
 

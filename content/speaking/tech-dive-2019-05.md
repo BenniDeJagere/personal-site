@@ -1,7 +1,6 @@
 ---
 title: "Tech Dive May 2019"
 date: 2019-05-21
-tags: [speaking]
 location: 3factr, Edegem, Belgium
 ---
 

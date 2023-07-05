@@ -1,7 +1,7 @@
 ---
 title: Can you feel the breeze? Data-aware scheduling and more new features in Airflow
 date: 2023-05-23
-tags: [speaking, airflow, data engineering, data platform, prefect, kubernetes]
+tags: [airflow, data engineering, data platform, prefect, kubernetes]
 location: Data Science Leuven, Belgium
 ---
 

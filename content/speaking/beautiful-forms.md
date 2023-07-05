@@ -1,7 +1,7 @@
 ---
 title: "Beautiful Xamarin.Forms and Serious Tech talk"
 date: 2017-03-14
-tags: [speaking, Xamarin]
+tags: [Xamarin]
 location: 3factr, Edegem, Belgium
 ---
 

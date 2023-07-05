@@ -1,7 +1,7 @@
 ---
 title: "Workshop: getting started with Xamarin"
 date: 2017-06-27
-tags: [speaking, Xamarin]
+tags: [Xamarin]
 location: 3factr, Edegem, Belgium
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "dbt & Fabric: better together"
 date: 2023-06-09
-tags: [speaking, dbt, fabric, data platform, dataops, data engineering, data analytics,  data warehouse, data lake]
+tags: [dbt, fabric, data platform, dataops, data engineering, data analytics,  data warehouse, data lake]
 location: Data Platform Next Step, Billund, Denmark
 ---
 

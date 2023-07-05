@@ -1,7 +1,7 @@
 ---
 title: "Belgium dbt Meetup 2"
 date: 2023-06-14
-tags: [speaking, analytics engineering, data engineering, data platform, dbt]
+tags: [analytics engineering, data engineering, data platform, dbt]
 location: OTA Insight, Ghent, Belgium
 ---
 

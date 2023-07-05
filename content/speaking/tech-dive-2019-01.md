@@ -1,7 +1,6 @@
 ---
 title: "Tech Dive January 2019"
 date: 2019-01-31
-tags: [speaking]
 location: 3factr, Edegem, Belgium
 ---
 

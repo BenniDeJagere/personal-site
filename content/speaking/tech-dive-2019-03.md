@@ -1,7 +1,6 @@
 ---
 title: "Tech Dive March 2019"
 date: 2019-03-19
-tags: [speaking]
 location: 3factr, Edegem, Belgium
 ---
 
