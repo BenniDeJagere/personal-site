@@ -20,7 +20,7 @@ td {
     margin-right: auto;
 }
 
-div.speaking-container div.date-container {
+div.card-container div.date-container {
     font-size: 1.5em;
     background-color: #06324D;
     color: white;
@@ -32,7 +32,7 @@ div.speaking-container div.date-container {
     align-items: center;
 }
 
-div.speaking-container div.card-container {
+div.card-container {
     margin: 10px 0px 10px 0px;
     display: grid;
     grid-template-areas: 'date info';
@@ -42,25 +42,25 @@ div.speaking-container div.card-container {
     line-height: 1.75em;
 }
 
-div.speaking-container div.info-container {
+div.card-container div.info-container {
     padding: 20px;
     grid-area: info;
 }
 
-div.speaking-container div.event-name {
+div.card-container div.event-name {
     font-weight: bold;
     padding-bottom: 5px;
 }
 
-div.speaking-container div.event-location {
+div.card-container div.event-location {
     font-weight: 300;
 }
 
-div.speaking-container div.day {
+div.card-container div.day {
     font-weight: 300;
 }
 
-div.speaking-container div.month {
+div.card-container div.month {
     font-weight: 600;
 }
 

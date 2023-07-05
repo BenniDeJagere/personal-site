@@ -5,13 +5,9 @@
   {{ range .Pages.GroupByDate "2006" }}
     <h2>{{ .Key }}</h2>
 
-    <div class="speaking-container">
-
       {{ range .Pages }}
         {{ .Render "li" }}
       {{ end }}
-
-    </div>
 
   {{ end }}
 

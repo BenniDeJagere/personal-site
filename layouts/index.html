@@ -10,10 +10,8 @@
 {{ $speaking := where .Site.RegularPages "Section" "speaking" }}
 {{ $speakingRecentYear := (index ($speaking.GroupByDate "2006") 0).Pages }}
 <p>Events I spoke at in {{ (index $speakingRecentYear 0).Date.Format "2006" }}. <a href="/speaking/">View more.</a></p>
-<div class="speaking-container">
-  {{ range $speakingRecentYear }}
-    {{ .Render "li" }}
-  {{ end }}
-</div>
+{{ range $speakingRecentYear }}
+  {{ .Render "li" }}
+{{ end }}
 
 {{ partial "footer" .}}
