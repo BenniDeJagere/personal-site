@@ -2,6 +2,7 @@
 title: "Serverless on Azure @ Tech Dive September 2019"
 date: 2019-09-26
 tags: [speaking, Azure, Azure Functions, serverless]
+location: 3factr, Edegem, Belgium
 ---
 
 On September 26th, 2019, I organized the [RMDY](https://rmdy.be/) Tech Dive in Edegem. This was a public event with several topics about web, cloud & mobile app development.

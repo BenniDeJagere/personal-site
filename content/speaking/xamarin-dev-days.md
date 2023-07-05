@@ -2,6 +2,7 @@
 title: "Xamarin Dev Days 2017 Edegem"
 date: 2017-11-18
 tags: [speaking, Xamarin]
+location: 3factr, Edegem, Belgium
 ---
 
 In 2017 I organized a local edition of the Xamarin Dev Days in Edegem.

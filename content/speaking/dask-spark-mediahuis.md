@@ -2,6 +2,7 @@
 title: "Mediahuis: Why Dask and not Spark?"
 date: 2021-06-07
 tags: [speaking, dask, spark, data, platform, mediahuis, rootlabs]
+location: dataroots, online
 ---
 
 > Here I hosted this demonstration/interview during a lunch webinar at [dataroots](https://dataroots.io).

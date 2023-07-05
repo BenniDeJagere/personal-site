@@ -2,6 +2,7 @@
 title: "Xamarin.Forms: The Now and Future & Building Fast Mobile Apps Fast"
 date: 2018-10-04
 tags: [speaking, Xamarin, MugenMvvmToolkit]
+location: 3factr, Edegem, Belgium
 ---
 
 On October 4th, 2018, I organized a Xamarin meetup in Edegem. I also gave a talk at this meetup about building mobile apps fast with MugenMvvmToolkit.

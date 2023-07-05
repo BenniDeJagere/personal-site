@@ -2,6 +2,7 @@
 title: "Analytics Engineering Belgium Meetup 1"
 date: 2023-03-23
 tags: [speaking, analytics engineering, data engineering, data platform, dbt]
+location: Ausy, Leuven, Belgium
 ---
 
 [Event details](https://www.meetup.com/analytics-engineering-belgium/events/291200549/)

@@ -2,6 +2,7 @@
 title: "Tech Dive March 2019"
 date: 2019-03-19
 tags: [speaking]
+location: 3factr, Edegem, Belgium
 ---
 
 On March 19th, 2019, I organized the [RMDY](https://rmdy.be/) Tech Dive in Edegem. This was a public event with several topics about web, cloud & mobile app development.

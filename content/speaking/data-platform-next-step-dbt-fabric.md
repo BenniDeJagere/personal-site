@@ -1,7 +1,8 @@
 ---
-title: "dbt & Fabric: better together @ Data Platform Next Step"
+title: "dbt & Fabric: better together"
 date: 2023-06-09
 tags: [speaking, dbt, fabric, data platform, dataops, data engineering, data analytics,  data warehouse, data lake]
+location: Data Platform Next Step, Billund, Denmark
 ---
 
 I gave a talk at the [Data Platform Next Step](https://dataplatformnextstep.com/breakout-sessions/) conference in Billund, Denmark. The conference was the first conference with sessions about [Microsoft Fabric](https://www.microsoft.com/microsoft-fabric) right after the launch of the public preview at [Microsoft Build](https://build.microsoft.com/).

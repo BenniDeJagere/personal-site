@@ -1,7 +1,8 @@
 ---
-title: "Continuous integration for Flutter @ Flutter Belgium"
+title: "Continuous integration for Flutter"
 date: 2019-07-17
 tags: [speaking, Flutter, CI/CD, Bitrise]
+location: Flutter Belgium, Brussels, Belgium
 ---
 
 At the fourth Flutter Belgium meetup in Brussels, I gave a presentation about setting up continuous integration for Flutter apps using Bitrise.

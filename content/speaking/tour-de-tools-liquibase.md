@@ -2,6 +2,7 @@
 title: "Tour de Tools #9 - Liquibase with Sam Debruyn"
 date: 2021-06-04
 tags: [speaking, liquibase, sql, database, schema, versioning, tour-de-tools]
+location: dataroots, online
 ---
 
 > This talk was given during a lunch webinar at [dataroots](https://dataroots.io).
