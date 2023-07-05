@@ -1,0 +1,5 @@
+<div class="home-container">
+{{ range first 2 (where .Site.RegularPages "Section" "blog") }}
+    {{ partial "partials/post-item" . }}
+{{ end }}
+</div>

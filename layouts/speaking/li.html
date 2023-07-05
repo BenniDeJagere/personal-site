@@ -1,0 +1,20 @@
+<a href="{{ .Permalink }}">
+  <div class="card-container">
+    <div class="date-container">
+      <div class="date">
+        <div class="day">{{ .Date.Format "02" }}</div>
+        <div class="month">{{ .Date.Format "Jan" | upper }}</div>
+      </div>
+    </div>
+    <div class="info-container">
+      <div class="event-name">
+        {{ .Title }}
+      </div>
+      {{ with .Params.location }}
+      <div class="event-location">
+        {{ emojify ":round_pushpin:" }} {{ . }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</a>

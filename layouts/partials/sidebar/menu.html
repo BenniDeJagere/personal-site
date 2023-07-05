@@ -1,0 +1,8 @@
+{{ $currentPage := . }}
+{{ range .Site.Menus.main }}
+        <p>
+            <a href="{{ .URL | safeURL }}" title="{{ .Name }}"{{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noreferrer noopener"{{ end }}>
+                {{ .Name | safeHTML }}
+            </a>
+        </p>
+{{ end }}

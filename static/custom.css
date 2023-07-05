@@ -1,0 +1,126 @@
+div.highlight {
+    max-width: 100%;
+}
+
+div.highlight pre {
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+#content:not(.portfolio) img {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.speaking-container div.date-container {
+    font-size: 1.5em;
+    background-color: #06324D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    grid-area: date;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.speaking-container div.card-container {
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-areas: 'date info';
+    grid-template-columns: 150px 1fr;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    line-height: 1.75em;
+}
+
+div.speaking-container div.info-container {
+    padding: 20px;
+    grid-area: info;
+}
+
+div.speaking-container div.event-name {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+div.speaking-container div.event-location {
+    font-weight: 300;
+}
+
+div.speaking-container div.day {
+    font-weight: 300;
+}
+
+div.speaking-container div.month {
+    font-weight: 600;
+}
+
+div.post-image-container {
+    display: grid;
+    grid-template-areas: 'image info';
+    grid-template-columns: fit-content(30%) 1fr;
+}
+
+div.post-image img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+div.post-image-container div.post-image {
+    grid-area: image;
+}
+
+div.post-image-container div.post-info {
+    grid-area: info;
+    padding-left: 10px;
+}
+
+.no-top-margin {
+    margin-top: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    div.post-image img {
+        display: none;
+    }
+
+    div.post-image-container div.post-image {
+        display: none;
+        ;
+    }
+
+    div.post-image-container {
+        grid-template-areas: 'image' 'info';
+        grid-template-columns: 1fr;
+    }
+
+    div.post-image-container div.post-info {
+        grid-area: info;
+        padding: 0px;
+    }
+}
+
+.tags {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+div.home-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.home-container div.home-post {
+    max-width: 50%;
+    padding: 20px;
+}

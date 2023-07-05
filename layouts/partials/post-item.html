@@ -1,0 +1,9 @@
+<div class="home-post">
+<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+{{ partial "partials/post-meta.html" . }}
+<p>{{ .Summary | plainify | safeHTML }}</p>
+<div class="read-more">
+    <a alt="{{.Title}}" href="{{.Permalink}}" />{{ partial "svg" (dict "iconName" "read" "size" "18px")}}
+    Read more</a>
+</div>
+</div>

@@ -1,66 +1,99 @@
 languageCode = "en-us"
 title = "Sam Debruyn"
-theme = "hugo-goa"
-pygmentsCodeFences = true
-pygmentsUseClasses = false
+theme = "personal-web"
+copyright = "© Sam Debruyn"
 enableGitInfo = true
-author = "Sam Debruyn"
 enableRobotsTXT = true
-pygmentsStyle = "monokai"
+enableEmoji=true
+author = "Sam Debruyn"
+summaryLength = 50
 
 [markup]
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = true
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = false
+style = 'monokai'
+tabWidth = 4
 
 [permalinks]
-    blog = "/:year/:title/"
-    addendum = "/addendum/:year/:title/"
+blog = "/:year/:title/"
+addendum = "/addendum/:year/:title/"
 
 [params]
-    author = "Sam Debruyn"
-    intro = "Cloud Data Solution Architect"
-    description = "Specialized in Microsoft Azure, Fabric & modern data stack. Public speaker & meetup organizer. FOSS contributor. Currently tech lead data & cloud at [dataroots](https://dataroots.io/)."
-    authorimage = "avatar_crop.jpg"
-    dateformat = "Jan 2, 2006"
+breadcrumb = true
+accentColor = "#54AFB8"
+rendererSafe = false
+maxTags = 4
 
-[params.meta]
-    description = "Sam Debruyn - Cloud Data Solution Architect specialized in Microsoft Azure, Fabric & modern data stack."
-    keywords = "azure,data,dbt,tech lead,cloud engineer,data engineer"
+[params.main]
+latestPublishHeader = "Latest blog posts"
 
-[params.extra]
-    poweredby = false
-    socialmarkup = true
-    rss = false
-    displayrssicon = false
+[params.intro]
+main = "Sam Debruyn"
+sub = "Cloud Data Solution Architect"
+description = "Specialized in Microsoft Azure, Fabric & modern data stack. Public speaker & meetup organizer. FOSS contributor. Currently tech lead data & cloud at [dataroots](https://dataroots.io/)."
+
+[params.notFound]
+gopher = "/img/theme/clippy-sad.png"
+h1 = "404"
+p = "Your query returned 0 results."
+
+[params.sidebar]
+logo = "/img/theme/avatar_crop.jpg"
+backgroundImage = "/img/theme/pexels-symeon-ekizoglou-2880755.jpg"
+gradientOverlay = "rgba(0,0,0,0),rgba(0,0,0,1)"
+
+[params.assets]
+favicon = "/favicon.ico"
+customCSS = "/custom.css"
 
 [params.social]
-    github = "sdebruyn"
-    twitter = "S_Debruyn"
-    linkedin = "samueldebruyn"
-    stackoverflow = "1592358"
-    meetup = "186807757"
-    credly = "debruyn"
-    accredible = "debruyn"
+github = "https://github.com/sdebruyn"
+twitter = "https://twitter.com/s_debruyn"
+linkedin = "https://www.linkedin.com/in/samueldebruyn/"
+stackoverflow = "https://stackoverflow.com/users/1592358/sam-debruyn"
+meetup = "https://www.meetup.com/members/186807757/"
+credly = "https://www.credly.com/users/debruyn"
+accredible = "https://www.credential.net/profile/debruyn/wallet"
 
 [[menu.main]]
-    name = "about Sam"
-    url = "/about/"
-    weight = 100
+name = "about Sam"
+url = "/about/"
+weight = 100
 [[menu.main]]
-    name = "blog"
-    url = "/blog/"
-    weight = 400
+name = "blog"
+url = "/blog/"
+weight = 400
 [[menu.main]]
-    name = "public speaking & meetups"
-    url = "/speaking/"
-    weight = 300
+name = "public speaking & meetups"
+url = "/speaking/"
+weight = 300
 [[menu.main]]
-    name = "open source contributions"
-    url = "https://github.com/pulls?q=is%3Aclosed+is%3Apr+author%3Asdebruyn"
-    weight = 200
+name = "open source contributions"
+url = "https://github.com/pulls?q=is%3Aclosed+is%3Apr+author%3Asdebruyn"
+weight = 200
 [[menu.main]]
-    name = "dataroots blog"
-    url = "https://dataroots.io/research/contributions/"
-    weight = 999
+name = "dataroots blog"
+url = "https://dataroots.io/research/contributions/"
+weight = 999
+
+[privacy]
+[privacy.googleAnalytics]
+anonymizeIP = false
+disable = false
+respectDoNotTrack = true
+[privacy.twitter]
+disable = false
+enableDNT = true
+simple = false

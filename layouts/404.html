@@ -1,0 +1,9 @@
+{{ partial "header" .}}
+
+<h1>{{ .Site.Params.notFound.h1 }}</h1>
+<img src="{{ .Site.Params.notFound.gopher }}" alt="gopher" title="gopher" class="gopher" />
+<p>{{ .Site.Params.notFound.p }}</p>
+<p>While you're here, you can check out my last blog posts:</p>
+{{ partial "partials/home-container.html" . }}
+
+{{ partial "footer" .}}

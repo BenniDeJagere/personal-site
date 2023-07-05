@@ -1,0 +1,22 @@
+<div class="post-container">
+  <h2>
+    <a href="{{.Permalink}}">{{ .Title }}</a>
+  </h2>
+  {{ partial "partials/post-meta.html" . }}
+
+  <div class="post-image-container">
+    <div class="post-image">
+      {{ with .Params.images  }}
+        <img src="{{ index . 0 }}" alt="{{ $.Title }}" />
+      {{ end }}
+    </div>
+    <div class="post-info">
+      <p>{{ .Summary | plainify | safeHTML }}</p>
+    </div>
+  </div>
+
+  <div class="read-more">
+    <a alt="{{.Title}}" href="{{.Permalink}}" />{{ partial "svg" (dict "iconName" "read" "size" "18px")}}
+    Read more</a>
+  </div>
+</div>

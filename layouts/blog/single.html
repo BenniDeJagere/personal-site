@@ -1,0 +1,32 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title }}</h1>
+
+{{ partial "partials/post-meta.html" . }}
+
+<div class="tags">
+    {{ partial "svg" (dict "iconName" "tag" "size" "18px") }}
+    <span>
+        {{ with .GetTerms "tags" }}
+            {{ $total := math.Min $.Site.Params.maxTags (len .) }}
+            {{ $subtotal := sub $total 1 }}
+            {{ range $i, $tag := sort . ".Pages.Len" "desc" }}
+                {{ $count := .Pages.Len }}
+                {{ if lt $i $total }}
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </span>
+</div>
+
+{{ .Content }}
+
+<h2>You might also like</h2>
+<div class="home-container">
+{{ range .Site.RegularPages.Related . | first 2 }}
+    {{ partial "partials/post-item" . }}
+{{ end }}
+</div>
+
+{{ partial "footer" .}}
