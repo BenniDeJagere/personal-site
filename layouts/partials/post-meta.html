@@ -1,9 +1,9 @@
-<div class="reading-time no-top-margin">
+<div class="reading-time">
     {{ partial "svg" (dict "iconName" "clock" "size" "18px")}}
     <span>{{ .ReadingTime }} {{ "minute" | pluralize }}</span>
 </div>
 
-<div class="published-date no-top-margin">
+<div class="published-date">
     {{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
     <time datetime="{{ .Date | safeHTML }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 </div>
