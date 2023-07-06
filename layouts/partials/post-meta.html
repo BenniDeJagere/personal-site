@@ -5,5 +5,5 @@
 
 <div class="published-date no-top-margin">
     {{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
-    <time datetime="{{ .Date }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+    <time datetime="{{ .Date | safeHTML }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
 </div>
