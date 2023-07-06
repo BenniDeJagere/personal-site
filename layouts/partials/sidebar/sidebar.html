@@ -7,7 +7,7 @@
     </div>
     <a href="/"><h2>{{ .Site.Params.intro.main | default "Welcome, I'm John Doe" | emojify }}</h2></a>
     <h3>{{ .Site.Params.intro.sub | default "This is my personal website" | emojify }}</h3>
-    <p>{{ .Site.Params.intro.description | markdownify }}</p>
+    <p class="only-long-devices">{{ .Site.Params.intro.description | markdownify }}</p>
     <div class="menu">
       {{ partial "sidebar/menu" . }}
       {{ if .Site.Params.contact.email }}

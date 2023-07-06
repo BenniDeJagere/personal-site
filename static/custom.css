@@ -95,7 +95,6 @@ div.post-image-container div.post-info {
 
     div.post-image-container div.post-image {
         display: none;
-        ;
     }
 
     div.post-image-container {
@@ -123,4 +122,20 @@ div.home-container {
 div.home-container div.home-post {
     max-width: 50%;
     padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    div.home-container {
+        flex-direction: column;
+    }
+
+    div.home-container div.home-post {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .only-long-devices {
+        display: none;
+    }
 }
