@@ -4,9 +4,12 @@ theme = "personal-web"
 copyright = "© Sam Debruyn"
 enableGitInfo = true
 enableRobotsTXT = true
-enableEmoji=true
+enableEmoji = true
 author = "Sam Debruyn"
 summaryLength = 50
+
+[social]
+twitter = "s_debruyn"
 
 [markup]
 [markup.tableOfContents]
