@@ -59,7 +59,6 @@ gradientOverlay = "rgba(0,0,0,0),rgba(0,0,0,1)"
 
 [params.assets]
 favicon = "/favicon.ico"
-customCSS = "/custom.css"
 
 [params.social]
 github = "https://github.com/sdebruyn"

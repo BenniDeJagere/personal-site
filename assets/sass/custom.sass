@@ -61,3 +61,90 @@ header
 th, td
   padding: 10px
   text-align: left
+
+
+.card-container
+  .date-container
+    font-size: 1.5em
+    background-color: #06324D
+    color: white
+    padding: 20px
+    text-align: center
+    grid-area: date
+    display: flex
+    justify-content: center
+    align-items: center
+
+  margin: 10px 0px 10px 0px
+  display: grid
+  grid-template-areas: 'date info'
+  grid-template-columns: 150px 1fr
+  background-color: #ffffff
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+  line-height: 1.75em
+
+  .info-container
+    padding: 20px
+    grid-area: info
+
+  .event-name
+    font-weight: bold
+    padding-bottom: 5px
+
+  .event-location, .day
+    font-weight: 300
+
+  .month
+    font-weight: 600
+
+.post-image-container
+  display: grid
+  grid-template-areas: 'image info'
+  grid-template-columns: fit-content(30%) 1fr
+
+  +smartphone
+    grid-template-columns: 1fr
+
+.post-image img
+  width: 100% !important
+  height: auto !important
+
+  +smartphone
+    display: none
+
+.post-image-container
+  .post-image
+    grid-area: image
+
+    +smartphone
+      display: none
+
+  .post-info
+    grid-area: info
+    padding-left: 10px
+
+    +smartphone
+      padding: 0px
+
+.tags
+  display: inline-block
+  margin-bottom: 20px
+  margin-left: 20px
+
+.home-container
+  display: flex
+  justify-content: space-between
+
+  +smartphone
+    flex-direction: column
+
+  .home-post
+    max-width: 50%
+    padding: 0.6em
+
+    +smartphone
+      max-width: 100%
+
++lowheight
+  .only-long-devices
+    display: none
