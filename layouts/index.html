@@ -6,10 +6,10 @@
 <p>Read about my latest findings below. <a href="/blog/">List entire blog.</a></p>
 {{ partial "partials/home-container.html" . }}
 
-<a href="/speaking/"><h3>{{ ":speaking_head:" | emojify }} Recent public speaking</h3></a>
+<a href="/speaking/"><h3>{{ ":speaking_head:" | emojify }} Recent & upcoming public speaking</h3></a>
 {{ $speaking := where .Site.RegularPages "Section" "speaking" }}
 {{ $speakingRecentYear := (index ($speaking.GroupByDate "2006") 0).Pages }}
-<p>Events I spoke at in {{ (index $speakingRecentYear 0).Date.Format "2006" }}. <a href="/speaking/">View more.</a></p>
+<p>Events I had/have planned in {{ (index $speakingRecentYear 0).Date.Format "2006" }}. <a href="/speaking/">View more.</a></p>
 {{ range $speakingRecentYear }}
   {{ .Render "li" }}
 {{ end }}
