@@ -177,9 +177,12 @@ header
       position: relative
 
 #content, .breadcrumb
-  max-width: $max-width-content
+  max-width: 80%
   margin: 0 auto
   display: block
+
+  +smartphone
+    max-width: 100%
 
 a
   line-height: $line-height_main+0.1
@@ -232,7 +235,7 @@ footer
   padding: $padding-content
 
   .footer-wrapper
-    max-width: $max-width-content
+    max-width: 80%
     margin: 0 auto
     display: block
 
@@ -243,6 +246,7 @@ footer
   +smartphone
     position: relative
     width: 100%
+    max-width: 100%
     left: 0px
 
   p
