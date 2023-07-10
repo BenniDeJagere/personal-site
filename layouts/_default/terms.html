@@ -1,0 +1,15 @@
+{{ partial "header" .}}
+
+  <h1 id="title"> {{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+  {{ if not $.Params.pagesListSuppressed }}
+    <ul id="list">
+      {{ range .Data.Terms.ByCount }}
+        <li>
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+
+{{ partial "footer" .}}
