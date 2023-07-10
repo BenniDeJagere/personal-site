@@ -1,7 +1,8 @@
 +++
 date = "2018-10-15T23:00:52+01:00"
 title = "Moving from a \"work\" to a \"personal\" Microsoft account"
-tags = ["Microsoft", "Azure"]
+tags = ["Microsoft", "Microsoft Azure"]
+expiryDate = "2023-07-01"
 +++
 If you've found this blog post, then you probably have found yourself in Microsoft's account mess.
 

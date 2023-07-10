@@ -1,7 +1,7 @@
 ---
 title: "Preparing a migration to Microsoft Fabric: from Azure Synapse Serverless SQL"
 date: 2023-07-04T11:16:45+02:00
-tags: ["fabric", "synapse", "serverless", "migration", "delta lake", "lakehouse", "sql", "microsoft fabric"]
+tags: ["Microsoft Fabric", "Azure Synapse", "Synapse Serverless", "Delta Lake", "data lakehouse", "SQL", "migration to Fabric"]
 images: ["/img/post/2023/synapse-fabric.png"]
 ---
 
@@ -10,6 +10,10 @@ If all those posts about Microsoft Fabric have made you curious, you might want 
 <!--more-->
 
 ![migration](/img/post/2023/synapse-fabric.png "migration")
+
+## All posts in this series:
+
+{{< taglist "migration to Fabric" >}}
 
 ## Are Azure Synapse Serverless SQL Pools going away?
 

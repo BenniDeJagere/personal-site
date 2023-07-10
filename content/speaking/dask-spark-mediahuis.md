@@ -1,7 +1,7 @@
 ---
 title: "Mediahuis: Why Dask and not Spark?"
 date: 2021-06-07
-tags: [dask, spark, data, platform, mediahuis, rootlabs]
+tags: [Dask, Apache Spark, data platform]
 location: dataroots, online
 ---
 

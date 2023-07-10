@@ -1,7 +1,7 @@
 ---
 title: "Installing the Azure Event Hubs Python SDK on Raspberry Pi OS 64-bit"
 date: 2020-08-11T22:16:24+02:00
-tags: ["Python", "Azure", "EventHubs", "RaspberryPi", "Debian"]
+tags: ["Python", "Microsoft Azure", "Azure Event Hub", "Raspberry Pi", "Debian"]
 ---
 
 Since we're going through some heat waves in Europe, I thought it might be interesting to start measuring the humidity, temperature and pressure in my apartment. To do so, I decided to use my Raspberry Pi 3 and the Pi Sense HAT running a Python script constantly sending measurements to an Azure Event Hub.

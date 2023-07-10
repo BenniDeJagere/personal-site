@@ -2,7 +2,7 @@
 date = "2017-06-02T16:32:42+02:00"
 title = "Optimize memory usage in Xamarin apps"
 draft = false
-tags = ["xamarin", "csharp", "android", "ios", "xamarin.forms", "app performance"]
+tags = ["Xamarin", "C#", "Android", "iOS", "Xamarin.Forms", "app performance"]
 +++
 
 > This post has been translated to Russian by [Denis Gordin](https://twitter.com/g0rdan). You can read the Russian version on the Russian website [TechMedia](https://habrahabr.ru/post/330854/). Thanks, Denis!

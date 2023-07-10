@@ -2,6 +2,7 @@
 date = "2015-08-26T18:55:47+02:00"
 title = "The right way to create Windows installation media"
 tags = ["Windows"]
+expiryDate = "2023-07-01"
 +++
 
 There are several ways to create a USB stick to install Windows. Chances are you end up with an error during the installation or you (unknowingly) use the wrong partition layout for your HDD/SSD.

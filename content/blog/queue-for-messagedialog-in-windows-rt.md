@@ -1,7 +1,7 @@
 +++
 date = "2014-08-20T00:00:00+00:00"
 title = "Queue for MessageDialog in Windows RT"
-tags = ["Windows RT", "CSharp"]
+tags = ["Windows RT", "C#"]
 aliases = ["2014/queue-for-messagedialog/"]
 +++
 

@@ -1,7 +1,7 @@
 +++
 date = "2017-05-25T21:21:16+02:00"
 title = "A few common issues with .csproj files in Xamarin apps"
-tags = ["xamarin", "csharp"]
+tags = ["xamarin", "C#"]
 +++
 
 Usually you don't need to manually edit .csproj files for your apps and most developers don't even know what's going on inside this file. However, sometimes you might run into issues related to this file where Visual/Xamarin Studio can't help you.

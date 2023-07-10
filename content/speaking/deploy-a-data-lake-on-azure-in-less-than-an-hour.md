@@ -1,7 +1,7 @@
 ---
 title: "Deploy a data lake on Azure in less than an hour"
 date: 2020-06-05
-tags: ["meetup", "dataroots", "azure", "terraform", "data lake"]
+tags: ["meetup", "dataroots", "Microsoft Azure", "terraform", "data lake"]
 location: Data Science Leuven, Belgium
 ---
 

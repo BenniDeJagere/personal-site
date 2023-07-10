@@ -1,7 +1,7 @@
 ---
 title: "Building & deploying Azure self-service data platforms for healthcare"
 date: 2022-05-10
-tags: [kubernetes, data platform, azug, dataroots, lynxcare, healthcare, self-service analytics, azure, devops, terraform]
+tags: [kubernetes, data platform, AZUG, dataroots, LynxCare, healthcare, Microsoft Azure, DevOps, terraform]
 location: AZUG, dataroots, Leuven, Belgium
 ---
 

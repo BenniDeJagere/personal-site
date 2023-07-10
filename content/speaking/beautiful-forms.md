@@ -1,7 +1,7 @@
 ---
 title: "Beautiful Xamarin.Forms and Serious Tech talk"
 date: 2017-03-14
-tags: [Xamarin]
+tags: [Xamarin, meetup, Xamarin.Forms]
 location: 3factr, Edegem, Belgium
 ---
 

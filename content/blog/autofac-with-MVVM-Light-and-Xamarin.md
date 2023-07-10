@@ -2,7 +2,7 @@
 date = "2016-02-22T18:59:37+01:00"
 draft = false
 title = "Dependency injection with Autofac and MVVM Light in Xamarin"
-tags = ["MVVM", "MVVM Light", "Xamarin", "Autofac", "DI", "Android", "iOS", "Windows RT", "CSharp"]
+tags = ["MVVM", "MVVM Light", "Xamarin", "Autofac", "Android", "iOS", "Windows RT", "C#"]
 +++
 
 ## You gotta have MVVM
@@ -95,7 +95,7 @@ namespace MyApp.Android.Utilities
             var navigationService = new NavigationService();
             // navigationService setup...
             builder.RegisterInstance(navigationService).AsImplementedInterfaces();
-            
+
             Type[] types =
             {
                 typeof (DialogService),
@@ -172,7 +172,7 @@ Whenever you need an instance of a registered type, you can use the `ServiceLoca
 ```C#
 var myService = ServiceLocator.Current.GetInstance<IMyService>();
 ```
-    
+
 You'll only need this in the (usually empty) code-behind parts like activities (Android), ViewControllers (iOS) or the page classes (Windows Phone).
 
 You can even use [factories](http://docs.autofac.org/en/latest/advanced/delegate-factories.html) as long as you register them.

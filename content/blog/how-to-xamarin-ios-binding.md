@@ -2,7 +2,7 @@
 date = "2016-08-29T11:10:40+02:00"
 draft = false
 title = "Creating a Xamarin.iOS binding project for dummies"
-tags = ["Xamarin", "iOS", "CSharp", "Objective-C"]
+tags = ["Xamarin", "iOS", "C#", "Objective-C"]
 +++
 
 ## What you need

@@ -1,7 +1,7 @@
 +++
 date = "2018-10-29T14:38:56+00:00"
 title = "Create App Previews with the iOS Simulator"
-tags = ["iOS", "Apple", "App Store"]
+tags = ["iOS", "App Store"]
 +++
 I don't always have a ton of iOS devices lying around when I submit iOS apps to ~~iTunes~~ App Store Connect.
 

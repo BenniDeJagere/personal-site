@@ -1,7 +1,7 @@
 ---
 title: "Belgium dbt Meetup 3"
 date: 2023-09-28
-tags: [analytics engineering, data engineering, data platform, dbt]
+tags: [analytics engineering, data engineering, data platform, dbt, meetup]
 location: Astrafy, Brussels, Belgium
 ---
 

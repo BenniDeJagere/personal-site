@@ -1,7 +1,7 @@
 ---
 title: "Xamarin.Forms: The Now and Future & Building Fast Mobile Apps Fast"
 date: 2018-10-04
-tags: [Xamarin, MugenMvvmToolkit]
+tags: [Xamarin, MugenMvvmToolkit, Xamarin.Forms]
 location: 3factr, Edegem, Belgium
 ---
 

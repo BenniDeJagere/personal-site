@@ -2,7 +2,7 @@
 title: "Connect to Fabric Lakehouses & Warehouses from Python code"
 date: 2023-06-27T23:14:24+02:00
 draft: true
-tags: ["fabric", "python", "odbc", "lakehouse", "warehouse", "sql"]
+tags: ["Microsoft Fabric", "Python", "ODBC", "data lakehouse", "data warehouse", "SQL"]
 ---
 
 In this post, I will show you how to connect to your Microsoft Fabric Lakehouses and Warehouses from Python.

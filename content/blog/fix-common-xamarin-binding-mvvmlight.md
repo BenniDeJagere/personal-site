@@ -2,7 +2,7 @@
 date = "2016-03-22T20:02:53+01:00"
 draft = false
 title = "Fix common binding errors with MVVM Light on Xamarin"
-tags = ["Xamarin", "MVVM", "MVVM Light", "CSharp", "Android", "iOS"]
+tags = ["Xamarin", "MVVM", "MVVM Light", "C#", "Android", "iOS"]
 +++
 
 There isn't much documentation available for [MVVM Light](http://www.mvvmlight.net/) when it comes to Xamarin.Android and Xamarin.iOS. There are several overloads for the `SetBinding` method and using the wrong overload causes `TargetInvocationException` or `TargetException` like [this one](http://stackoverflow.com/q/35197870/1592358). It's also possible that your bindings don't update anymore after you set one binding using an incorrect syntax.
@@ -31,7 +31,7 @@ To avoid the mentioned `TargetException`, I'd recommend setting up a static view
 
 ### Is the source of your binding a property in your view?
 
-Then use this one: 
+Then use this one:
 
 ```C#
 this.SetBinding(() => Path.To.Property.On.Your.View, App.Locator.MyViewModel, () => App.Locator.MyViewModel.Path.To.Property.On.Your.ViewModel, BindingMode.OneWay)
@@ -44,19 +44,19 @@ Then use the following overload:
 ```C#
 App.Locator.MyViewModel.SetBinding(() => App.Locator.MyViewModel.Path.To.Property.On.Your.ViewModel, this, () => Path.To.Property.On.Your.View, BindingMode.OneWay);
 ```
-    
+
 ### Two-way binding
 
 ```C#
 this.SetBinding(() => Path.To.Property.On.Your.View, App.Locator.MyViewModel, () => App.Locator.MyViewModel.Path.To.Property.On.Your.ViewModel, BindingMode.TwoWay);
 ```
-    
+
 ### Binding to a target type different from the source type
 
 ```C#
 App.Locator.MyViewModel.SetBinding(() => App.Locator.MyViewModel.Path.To.Property.On.Your.ViewModel, this, () => Path.To.Property.On.Your.View, BindingMode.OneWay).ConvertSourceToTarget(ConversionMethod);
 ```
-    
+
 You can also use a lambda, but that's harder to debug.
 
 ### Just binding to a source and updating the view yourself

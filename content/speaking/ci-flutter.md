@@ -1,7 +1,7 @@
 ---
 title: "Continuous integration for Flutter"
 date: 2019-07-17
-tags: [Flutter, CI/CD, Bitrise]
+tags: [Flutter, CI/CD, Bitrise, meetup]
 location: Flutter Belgium, Brussels, Belgium
 ---
 
