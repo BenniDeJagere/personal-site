@@ -28,6 +28,7 @@ lineNos = true
 lineNumbersInTable = false
 style = 'monokai'
 tabWidth = 4
+enableInlineShortcodes = true
 
 [permalinks]
 blog = "/:year/:title/"
