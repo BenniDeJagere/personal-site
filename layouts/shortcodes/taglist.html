@@ -1,0 +1,11 @@
+{{ $currTag := .Get 0 | anchorize }}
+{{ $tagPages := where .Site.RegularPages "Section" "speaking" }}
+{{ $taggedPages := (index .Site.Taxonomies.tags $currTag).Pages.ByTitle }}
+
+<ul id="list">
+{{ range $taggedPages }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+{{ end }}
+</ul>
