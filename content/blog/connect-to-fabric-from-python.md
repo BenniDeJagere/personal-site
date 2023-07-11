@@ -1,7 +1,6 @@
 ---
 title: "Connect to Fabric Lakehouses & Warehouses from Python code"
-date: 2023-06-27T23:14:24+02:00
-draft: true
+date: 2023-07-11T09:14:24+02:00
 tags: ["Microsoft Fabric", "Python", "ODBC", "data lakehouse", "data warehouse", "SQL"]
 ---
 
