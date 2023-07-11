@@ -2,6 +2,7 @@
 title: "Some interesting takeaways from this year's Techorama"
 date: 2022-06-09T16:37:50+02:00
 tags: ["Techorama", "Microsoft Azure", "kubernetes", "SQL Server", "security"]
+images: ["https://dataroots.io/static/585458d77377bdef46719884dae51f1b/5803e/IMG_20220524_084801.webp]
 ---
 
 > This post originally appeared on [the dataroots blog](https://dataroots.io/research/contributions/some-takeaways-from-this-years-techorama/).
