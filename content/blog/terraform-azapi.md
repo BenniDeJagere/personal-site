@@ -2,6 +2,7 @@
 title: "Filling the gaps in your code with the Terraform azapi provider for Azure"
 date: 2022-07-04T16:28:43+02:00
 tags: ["terraform", "Microsoft Azure", "Bicep", "ARM"]
+images: ["https://dataroots.io/static/a4f1a6518431eb20f2403e36e59a7f57/48c06/terraform-azure.webp]
 ---
 
 > This post originally appeared on [the dataroots blog](https://dataroots.io/research/contributions/terraform-with-azure/).
