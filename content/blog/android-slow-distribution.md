@@ -3,6 +3,7 @@ date = "2016-03-29T08:25:38+02:00"
 draft = false
 title = "Android update distribution is getting worse"
 tags = ["Android"]
+images = ["/img/post/2016-android/adoption_rate_by_time_small.png"]
 +++
 
 ## Why it matters
