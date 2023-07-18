@@ -38,7 +38,7 @@ addendum = "/addendum/:year/:title/"
 breadcrumb = true
 accentColor = "#54AFB8"
 rendererSafe = false
-maxTags = 4
+maxTags = 5
 
 [params.main]
 latestPublishHeader = "Latest blog posts"
