@@ -5,7 +5,7 @@ tags: ["Microsoft Fabric", "Azure Synapse", "Synapse Serverless", "Delta Lake", 
 images: ["/img/post/2023/synapse-fabric.png"]
 ---
 
-If all those posts about Microsoft Fabric have made you curious, you might want to consider it as your next data platform. Since it is very new, not all features are available yet and most are still in preview. You could already adopt it, but if you want to deploy this to a production scenario, you'll want to wait a bit longer. In the meantime, you can already start preparing for the migration. Let's dive into the paths to migrate to Microsoft Fabric. Today: Starting from Synapse Serverless SQL Pools.
+If all those posts about Microsoft Fabric have made you curious, you might want to consider it as your next data platform. Since it is very new, not all features are available yet and most are still in preview. You could already adopt it, but if you want to deploy this to a production scenario, you'll want to wait a bit longer. In the meantime, you can already start preparing for the migration. Let's dive into the paths to migrate to Microsoft Fabric. Today: starting from Synapse Serverless SQL Pools.
 
 <!--more-->
 
