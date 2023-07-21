@@ -18,7 +18,7 @@ If all those posts about Microsoft Fabric have made you excited, you might want 
 
 ## Why should you migrate?
 
-Before we start with the practical steps, let's first look at why you should migrate to Microsoft Fabric. Let's be clear: the Synapse Dedicated SQL Pools reached end-of-life. Microsoft will still support it with security updates, but the engine has run its course. No new features will be added. Microsoft lagged a bit behind the competition in modern cloud data warehouses and with Fabric they caught up to the likes of Snowflake, BigQuery, and Databricks.
+Before we start with the practical steps, let's first look at why you should migrate to Microsoft Fabric. Let's be clear: the Synapse Dedicated SQL Pools reached end-of-life. Microsoft will still support it with security updates, but the engine has run its course. No new features will be added. Microsoft lagged a bit behind the competition in modern cloud data warehouses and with Fabric they caught up to the likes of Snowflake, BigQuery, and Databricks. Note that Microsoft explicitly stated that Synapse is not deprecated. You should just look for yourself at the how new features are being added and decide for yourself if you want to migrate.
 
 The Synapse branding on the Data Warehouse and Lakehouse in Fabric might confuse some users. I went a bit deeper into the differences between the Synapse SQL Pools and the new Synapse engines in Fabric in [my previous post]({{< relref "blog/fabric-intro.md" >}}).
 
