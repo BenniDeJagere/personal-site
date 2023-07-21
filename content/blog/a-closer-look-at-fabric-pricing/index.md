@@ -86,7 +86,7 @@ As Fabric is all about data analytics and reporting, you can also report on your
 
 So does that mean that if you have an F2 SKU with 2 CUs, your workloads can use the power of 2 CUs on a constant load for an entire month? Yes. But, also, more. Since Microsoft Fabric is built upon Power BI, users can benefit from a principle called *smoothing*. This is not new and [documentation](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-smoothing) already exists. [This page](https://learn.microsoft.com/en-us/fabric/enterprise/metrics-app-timepoint-page) in the Microsoft Fabric documentation also mentions the smoothing feature, so we can assume that this is also available in Fabric.
 
-Let's compare the 2 graphs from the documentation below:
+Let's compare the 2 graphs taken from the documentation below:
 
 {{< figure src="https://learn.microsoft.com/en-us/power-bi/enterprise/media/service-premium-smoothing/cpu-usage-no-smoothing.png" caption="Without smoothing" >}}
 
