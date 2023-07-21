@@ -106,6 +106,8 @@ Looks great, right? A lot of data engineers used to run their intensive workload
 
 So even with a smaller SKU like F2, you can get amazing performance because short-lived workloads can use much more CUs than the 2 CUs that the SKU provides. You are billed based on the average performance you need instead of the maximum/peak performance you need.
 
+When I read the documentation on smoothing, it all clicked for me. During the [keynotes at Microsoft Build](https://build.microsoft.com/en-US/sessions/852ccf38-b07d-4ddc-a9fe-2e57bdaeb613?source=sessions) and [conference talks]({{< relref "speaking/data-platform-next-step-dbt-fabric.md" >}}) Microsoft employees often mentioned that processing engines in Fabric can allocate more capacity whenever they need within fractions of seconds. This could only be possible with features like smoothing on the billing side.
+
 ## Autoscaling & manual scaling
 
 Today, the P-SKUs already offer autoscaling. This was also [announced](https://blog.fabric.microsoft.com/en-us/blog/announcing-microsoft-fabric-capacities-are-available-for-purchase) to be coming to F-SKUs. So if you notice that you still get throttled, even with the smoothing, you can enable autoscaling.
