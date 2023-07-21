@@ -2,11 +2,11 @@
 title: "Let Fabric teach you how to code with Data Wrangler"
 date: 2023-07-20T19:22:38+02:00
 draft: true
-images: ["/2023/let-fabric-teach-you-how-to-code-with-data-wrangler/data-wrangler-overview.png"]
+images: ["/2023/let-fabric-teach-you-how-to-code-with-data-wrangler/pandas-logo.png"]
 tags: ["Microsoft Fabric", "Data Wrangler", "notebooks", "Pandas", "data engineering", "data lakehouse", "Python"]
 ---
 
-I'm going to be honest with you. I'm bad at writing Pandas data transformation code. Throughout the years I mostly focussed on the Spark APIs in Scala and PySpark, dbt, and some others, but I find the Pandas APIs usually just confusing and hard to read. I don't like the black box magic and lock-in of low-code solutions either. Did you know that Microsoft Fabric has the perfect middle ground for this? It's called Data Wrangler. Let's dive in!
+I'm going to be honest with you. I'm bad at writing Pandas data transformation code. Throughout the years I mostly focussed on the Spark APIs in Scala and PySpark, SQL, dbt, and some others, but I find the Pandas APIs usually just confusing and hard to read. I don't like the black box magic and lock-in of low-code solutions either. Did you know that Microsoft Fabric has the perfect middle ground for this? It's called Data Wrangler. Let's dive in!
 
 <!--more-->
 
