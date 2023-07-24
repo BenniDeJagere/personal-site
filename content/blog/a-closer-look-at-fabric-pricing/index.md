@@ -10,11 +10,13 @@ If you're considering using Microsoft Fabric, you're probably thinking "How much
 
 <!--more-->
 
-It's still a bit early to get a complete and thorough overview of how Microsoft is planning on billing for Fabric. But if we look at some public statements and documentation, we can piece it all together to get a pretty good idea of what to expect.
+It's still a bit early to get a complete and thorough overview of how Microsoft is planning on billing for Fabric. But if we look at some public statements and documentation, we can piece it all together to get a pretty good idea of what to expect. Keep in mind that this information is subject to change, because Microsoft Fabric is still a product in Public Preview.
 
 ## Fabric is free?
 
-That is, for now. If you're enabling your Microsoft Fabric trial, you won't be billed for it. This is a temporary measure while Fabric is still in preview. This trial allows you to try out all features of Fabric and get a good idea of the performance you'd get and how this would consume the allocated capacity. I highly recommend enabling the trial and trying out some workloads to determine the capacity you'll need.
+That is, for now. If you're enabling your [Microsoft Fabric trial capacity](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial), you won't be billed for it. This is an incentive to test Fabric while it is still in preview. There will continue to be trial options when it is released into General Availability, similar to how it exists today with Power BI. This trial allows you to try out all features of Fabric and get a good idea of the performance you'd get and how this would consume the allocated resources. I highly recommend enabling the trial and trying out some workloads to determine the capacity you'll need.
+
+If you decide to spin up your own Fabric capacity (F-SKU) as an Azure resource, your Azure credits will be charged for running the capacity.
 
 ## Capacity?
 
@@ -28,20 +30,20 @@ I knew I wasn't going to be able to write a few paragraphs without coming to the
 | Azure App Service             | PaaS      | vCore, storage, features         |
 | Databricks                    | PaaS-SaaS | CPU & memory + DBU               |
 | Snowflake                     | SaaS      | Snowflake credit                 |
-| Microsoft 365                 | SaaS      | user                             |
-| Power BI Premium Per User     | SaaS      | user                             |
-| Power BI Premium Per Capacity | SaaS      | capacity / vCPU                  |
-| Microsoft Fabric              | SaaS      | capacity / CU                    |
+| Microsoft 365                 | SaaS      | user named subscription          |
+| Power BI Premium Per User     | SaaS      | user named subscription          |
+| Power BI Premium Per Capacity | SaaS      | capacity / vCores                |
+| Microsoft Fabric              | SaaS      | capacity / CU (Capacity Unit)    |
 
-The cloud is all about the Shared Responsibility Model and you can see, the more responsibility goes to the cloud provider (so the more you're moving towards SaaS), the more you're not thinking anymore about the hardware underneath. And this also translates to the billing model.
+The cloud is all about the Shared Responsibility Model and you can see, the more responsibility goes to the cloud provider (so the more you're moving towards SaaS), the more you're not thinking anymore about the hardware and infrastructure underneath. And this also translates to the billing model.
 
 ## How a capacity is allocated
 
-Microsoft Fabric shares the same platform as Power BI and billing also seems to go in that direction. In Power BI you can activate Power BI Premium for a user to give them access to more features. You can also buy a Power BI Premium capacity which translates to a certain amount of vCores and maximum memory. This capacity can then be shared by multiple users and workspaces. Fabric Capacities work in the same way. They are meant to be **shared across projects, users, and workloads**. It doesn't matter if one user is using the Lakehouse, another user is running notebooks, and a third one is executing SQL in the Warehouse. They can all share the same capacity.
+Microsoft Fabric shares the same platform as Power BI and billing also seems to go in that direction. In Power BI you can activate Power BI Premium for a user to give them access to more features. You can also buy a Power BI Premium capacity which translates to a certain amount of vCores and maximum memory per artefact. This capacity can then be shared by multiple users and workspaces. Fabric Capacities work in the same way. They are meant to be **shared across projects, users, and workloads**. It doesn't matter if one user is using the Lakehouse, another user is running notebooks, and a third one is executing SQL in the Warehouse. They can all share the same capacity.
 
 {{< figure src="fabric-capacity-sharing.png" caption="Fabric Capacities can be shared amongst multiple users, projects, and workloads across an organization*" >}}
 
-Capacities are assigned to one or more Workspaces. Everything inside that workspace, be it a Warehouse, Lakehouse, Spark job, or notebook, will be using that same capacity.
+Capacities are assigned to one or more Workspaces. Everything inside that workspace, be it a Warehouse, Lakehouse, Spark job, or notebook, will be using that same capacity and the shared resources that are allocated to it.
 
 **Attentive readers will point out that you can create Elastic Pools for Azure SQL to share amongst multiple databases. I know, this was for demonstration purposes only.* :wink:
 
@@ -70,13 +72,13 @@ Since Fabric builds upon the Power BI platform, you can just reuse the Power BI 
 | P5       | 2048       | 128                     | 400                          | ± 80000           |
 | F2048    | 2048       | N/A                     | N/A                          | 269107.20         |
 
-Why are the F-SKUs so much more expensive? Simple! For the P-SKUs, you have to commit to yearly billing. For the F-SKUs, you can pay monthly. It is already confirmed that in a few months, you'll also be able to commit to yearly billing for the F-SKUs and get a discount. This is just the same principle as with the yearly or 3-yearly reservations you can buy right now for services like Azure Synapse.
+Why are the F-SKUs so much more expensive? Simple! For the P-SKUs, you have to commit to yearly billing. For the F-SKUs, you can pay per hour. It is already confirmed that in a few months, you'll also be able to commit to yearly billing for the F-SKUs and get a large discount. This is just the same principle as with the yearly or 3-yearly reservations you can buy right now for services like Azure Synapse.
 
 The F-SKUs are priced as Pay-As-You-Go so you only pay for exactly what you consume. Continue reading to learn how you can pay even less than the prices above.
 
 ## Capacity Units & monitoring your usage
 
-So, these capacity units, what are they? This is the billing unit used in Microsoft Fabric. You can compare it to Snowflake credits or Databricks DBUs. It's a unit that combines CPU and memory. Everything you do in Fabric consumes CUs. The more CUs you have, the more you can do without being throttled.
+So, these capacity units, what are they? This is the billing unit used in Microsoft Fabric. You can compare it to Snowflake credits or Databricks DBUs. It's a unit that combines CPU, Memory, Disk IO, Network bandwidth, and more. Everything you do in Fabric consumes CUs. The more CUs you have, the more you can do without being throttled.
 
 As Fabric is all about data analytics and reporting, you can also report on your own CU consumption. Microsoft released a [Fabric Capacity Metrics app](https://appsource.microsoft.com/en-us/product/power-bi/pbi_pcmm.microsoftpremiumfabricpreviewreport?exp=ubp8) that you can install in your tenant. This app will give you an overview of the capacity usage of your Fabric capacities.
 
